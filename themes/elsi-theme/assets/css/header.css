@@ -1,0 +1,16 @@
+.header-nav {
+    padding: 0 2rem;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-links {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+}
