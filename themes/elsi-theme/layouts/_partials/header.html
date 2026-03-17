@@ -3,12 +3,14 @@
         <div class="header-inner">
             <div class="site-title">
                 <h1>
-                    {{ site.Title }}
+                    ExELang
                 </h1>
             </div>
             <div class="header-links">
                 {{ range site.Menus.main }}
-                    <h2><a href="{{ .URL }}">{{ .Name }}</a></h2>
+                    <div class="link">
+                        <h2><a href="{{ .URL }}">{{ .Name }}</a></h2>
+                    </div>
                 {{ end }}
             </div>
         </div>
