@@ -1,4 +1,4 @@
-{{- $styles := slice "css/reset.css" "css/main.css" "css/header.css" -}}
+{{- $styles := slice "css/reset.css" "css/header.css" -}}
 
 {{- range $styles }}
   {{- with resources.Get . }}
