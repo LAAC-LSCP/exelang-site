@@ -1,13 +1,9 @@
-{{- $styles := slice "css/reset.css" "css/header.css" -}}
+{{- $scss := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/main.css") -}}
 
-{{- range $styles }}
-  {{- with resources.Get . }}
-    {{- if hugo.IsDevelopment }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{- else }}
-      {{- with . | minify | fingerprint }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-      {{- end }}
-    {{- end }}
+{{- if hugo.IsDevelopment }}
+  <link rel="stylesheet" href="{{ $scss.RelPermalink }}">
+{{- else }}
+  {{- with $scss | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
   {{- end }}
 {{- end }}

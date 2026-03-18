@@ -1,0 +1,42 @@
+.header-nav {
+	padding: 0 2rem;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+
+    .header-inner {
+        width: 100%;
+    }
+
+    .site-title {
+        font-weight: 700;
+        font-size: 24px;
+        color: oklch(0.546 0.245 262.881);
+    }
+
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .header-links {
+        display: flex;
+        align-items: left;
+        flex-direction: row;
+        font-size: 16px;
+    }
+
+    .header-links > .link {
+        padding: 12px;
+        color: oklch(0.373 0.034 259.733);
+        margin-right: 32px;
+        font-weight: 500;
+    }
+
+    a, a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+}

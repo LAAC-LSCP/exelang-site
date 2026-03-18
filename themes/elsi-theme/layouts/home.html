@@ -1,3 +1,19 @@
 {{ define "main" }}
-  {{ .Content }}
+  {{ with site.GetPage "home/home-hero" }}
+    <section class="home-hero">
+      <div class="hero-container">
+        {{ .Content }}
+      <div class="hero-buttons">
+        <a class="hero-button hero-button-primary"
+          href="{{ (site.GetPage `section` `tools`).RelPermalink }}">
+          Explore tools
+        </a>
+        <a class="hero-button hero-button-secondary"
+          href="{{ (site.GetPage `section` `docs`).RelPermalink }}">
+          View documentation
+        </a>
+      </div>
+      </div>
+    </section>
+  {{ end }}
 {{ end }}
