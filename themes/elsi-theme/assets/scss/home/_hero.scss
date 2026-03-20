@@ -15,7 +15,13 @@
         }
 
         > p {
-            margin: 0 62px 32px 62px;
+            max-width: 896px;
+            margin: 0 auto;
+            margin-bottom: 32px;
+        }
+
+        p:first-of-type {
+            font-size: 20px;
         }
     }
 
