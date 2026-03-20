@@ -1,0 +1,41 @@
+.home-tools {
+    max-width: 1280px;
+    padding: 0 24px 80px 24px;
+    margin: 0 auto;
+
+    h3 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .info-box {
+        text-align: center;
+        h3 {
+            color: white;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: white;
+            margin-bottom: 16px;
+        }
+
+        padding: 32px;
+
+        border-radius: 16px;
+        background-image: linear-gradient(to right, oklch(0.546 0.245 262.881) 0%, oklch(0.511 0.262 276.966) 100%);
+    }
+
+    .tools-grid {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: 1fr;
+        max-width: 1280px;
+        padding-bottom: 48px;
+
+        @media (min-width: 768px) {
+            justify-items: stretch;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

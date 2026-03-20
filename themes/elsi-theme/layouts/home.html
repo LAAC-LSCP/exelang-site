@@ -39,4 +39,24 @@
   </div>
 </section>
 {{ end }}
+{{ with site.GetPage "home/ecosystem"}}
+<section class="home-ecosystem">
+  {{ .Content }}
+</section>
+{{ end }}
+{{ with site.GetPage "home/tools"}}
+<section class="home-tools">
+  <h3>
+    {{ .Params.title }}
+  </h3>
+  <div class="tools-grid">
+    {{ range .Params.tools }}
+      {{ partial "home/tool-card.html" . }}
+    {{ end }}
+  </div>
+  <div class="info-box">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
 {{ end }}
