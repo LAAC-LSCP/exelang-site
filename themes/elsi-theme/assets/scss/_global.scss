@@ -6,3 +6,25 @@ a,
 a:visited {
   text-decoration: none;
 }
+
+h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+  color: oklch(0.21 0.034 264.665);
+  font-weight: 600;
+}
+
+p {
+  color: oklch(0.446 0.03 256.802);
+}

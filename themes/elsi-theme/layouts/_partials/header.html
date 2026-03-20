@@ -2,14 +2,12 @@
     <nav class="header-nav">
         <div class="header-inner">
             <div class="site-title">
-                <h1>
-                    ExELang
-                </h1>
+                ExELang
             </div>
             <div class="header-links">
                 {{ range site.Menus.main }}
                     <div class="link">
-                        <h2><a href="{{ .URL }}">{{ .Name }}</a></h2>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
                     </div>
                 {{ end }}
             </div>

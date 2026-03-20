@@ -24,5 +24,5 @@ title = "Labs & Institutions"
 description = "Collaborate and build upon our open-source work"
 icon = "people"
 +++
-# Who Is This For?
-## Our tools serve multiple audiences in the research community
+## Who Is This For?
+Our tools serve multiple audiences in the research community
