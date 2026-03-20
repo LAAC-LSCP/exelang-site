@@ -5,10 +5,10 @@
     {{ .Content }}
     <div class="hero-buttons">
       <a class="hero-button hero-button-primary" href="{{ (site.GetPage `section` `tools`).RelPermalink }}">
-        Explore tools
+        {{ .Params.tool_tag }}
       </a>
       <a class="hero-button hero-button-secondary" href="{{ (site.GetPage `section` `docs`).RelPermalink }}">
-        View documentation
+        {{ .Params.documentation_tag }}
       </a>
 </section>
 {{ end }}
@@ -37,6 +37,11 @@
       {{ partial "home/who-for-card.html" . }}
     {{ end }}
   </div>
+</section>
+{{ end }}
+{{ with site.GetPage "home/ecosystem"}}
+<section class="ecosystem">
+  {{ .Content }}
 </section>
 {{ end }}
 {{ end }}
