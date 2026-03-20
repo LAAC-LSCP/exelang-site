@@ -1,0 +1,9 @@
+<div class="who-for-card">
+    <div class="who-for-icon">
+        {{ with .icon }}
+            {{ partial (printf "icons/%s.html" .) . }}
+        {{ end }}
+    </div>
+    <h3 class="who-for-title">{{ .title }}</h3>
+    <p class="who-for-description">{{ .description }}</p>
+</div>

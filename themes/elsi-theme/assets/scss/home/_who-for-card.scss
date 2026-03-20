@@ -1,0 +1,48 @@
+.who-for-card {
+    padding: 32px;
+    border-radius: 14px;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color: oklch(0.928 0.006 264.531);
+    outline-color: oklch(0.708 0 0 / 0.5);
+    text-align: left;
+    transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: white;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+    }
+
+    .who-for-icon {
+        border-radius: 10px;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+
+        background-color: oklch(0.932 0.032 255.585);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    p {
+        color: oklch(0.446 0.03 256.802);
+    }
+
+    svg {
+        color: oklch(0.546 0.245 262.881);
+    }
+}
+
+
+@media (min-width: 560px) {
+  .who-for-card {
+    max-width: 560px;
+  }
+}
