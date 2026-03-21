@@ -91,4 +91,16 @@
   </div>
 </section>
 {{ end }}
+{{ with site.GetPage "home/resources" }}
+<section class="home-resources">
+  <div class="text-container">
+    {{ .Content }}
+  </div>
+  <div class="archive-grid">
+    {{ range .Params.archives }}
+      {{ partial "home/archive-card.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 {{ end }}

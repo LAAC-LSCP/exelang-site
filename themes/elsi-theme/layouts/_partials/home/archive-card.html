@@ -1,0 +1,7 @@
+<a href="{{ .link }}" class="archive-card hoverable-card">
+    {{ with .icon }}
+        {{ partial (printf "icons/%s.html" .) . }}
+    {{ end }}
+    <h3>{{ .title }}</h3>
+    <p>{{ .description }}</p>
+</a>
