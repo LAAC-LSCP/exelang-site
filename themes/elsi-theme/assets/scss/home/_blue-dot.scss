@@ -1,0 +1,19 @@
+.blue-dot {
+    .outer-dot {
+        border-radius: 100%;
+        background-color: oklch(0.932 0.032 255.585);
+        height: 24px;
+        width: 24px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inner-dot {
+        border-radius: 100%;
+        background-color: oklch(0.546 0.245 262.881);
+        height: 8px;
+        width: 8px;
+    }
+}

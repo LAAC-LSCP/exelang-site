@@ -4,12 +4,15 @@
   <div class="hero-container">
     {{ .Content }}
     <div class="hero-buttons">
-      <a class="hero-button hero-button-primary" href="{{ (site.GetPage `section` `tools`).RelPermalink }}">
+      <a class="hero-button hero-button-primary" class="inline-svg" href="{{ (site.GetPage `section` `tools`).RelPermalink }}">
         {{ .Params.tool_tag }}
+        {{ partial "icons/right-arrow.html" . }}
       </a>
       <a class="hero-button hero-button-secondary" href="{{ (site.GetPage `section` `docs`).RelPermalink }}">
         {{ .Params.documentation_tag }}
       </a>
+    </div>
+  </div>
 </section>
 {{ end }}
 {{ with site.GetPage "home/project-history" }}
@@ -56,6 +59,35 @@
   </div>
   <div class="info-box">
     {{ .Content }}
+  </div>
+</section>
+{{ end }}
+{{ with site.GetPage "home/ethics" }}
+<section class="home-ethics">
+  <div class="ethics-container">
+    <div class="text-container">
+      <div class="title-container">
+        {{ partial "icons/shield.html" . }}
+        <h2>{{ .Params.title }}</h2>
+      </div>
+      <p>{{ .Params.descriptive }}</p>
+      <div class="bullets-container">
+        {{ range .Params.bullets }}
+          <div class="bullet-container">
+            {{ partial "home/blue-dot.html" . }}
+            <div class="text">
+              <h4>{{ .title }}</h4>
+              <p>{{ .descriptive }}</p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ with .Params.banner_image }}
+      <div class="image-container">
+        <img src="{{ . | relURL }}" alt="Ethics banner">
+      </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}

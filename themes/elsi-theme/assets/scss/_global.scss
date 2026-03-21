@@ -25,6 +25,22 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 p {
   color: oklch(0.446 0.03 256.802);
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.inline-svg {
+    svg {
+    display: inline;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+  }
 }
