@@ -1,4 +1,4 @@
 baseURL = 'https://elsi.com/'
 languageCode = 'en-us'
-title = 'ELSI Site'
+title = 'ExELang Project'
 theme = 'elsi-theme'
