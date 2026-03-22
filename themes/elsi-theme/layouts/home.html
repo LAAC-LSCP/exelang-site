@@ -103,4 +103,24 @@
   </div>
 </section>
 {{ end }}
+<section class="home-consortium">
+  {{ with site.GetPage "home/consortium" }}
+  <div class="text-container">
+    {{ .Content }}
+    <a href="{{ .Params.link.url }}" class="learn-more">
+      {{ .Params.link.descriptive }}
+    </a>
+  </div>
+  {{ end }}
+  {{ with site.GetPage "home/partners" }}
+  <div class="partners">
+    {{ .Content }}
+    <div class="partners-grid">
+      {{ range .Params.partners }}
+        {{ partial "home/partner-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</section>
 {{ end }}

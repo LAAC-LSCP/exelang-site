@@ -1,0 +1,32 @@
+.home-consortium {
+    text-align: center;
+    padding: 80px 32px;
+    background-color: oklch(0.546 0.245 262.881);
+
+    .text-container {
+        h2 {
+            color: white;
+            margin-bottom: 24px;
+        }
+        p {
+            max-width: 860px;
+            margin: 0 auto 32px auto;
+            color: oklch(0.932 0.032 255.585);
+            font-weight: 500;
+        }
+
+        a {
+            display: inline-block;
+            background-color: white;
+            color: oklch(0.546 0.245 262.881);
+            padding: 12px 32px;
+            border-radius: 10px;
+
+            transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover {
+                background-color: oklch(0.967 0.003 264.542);
+            }
+        }
+    }
+}

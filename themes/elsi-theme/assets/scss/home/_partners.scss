@@ -1,0 +1,32 @@
+.partners {
+    max-width: 1280px;
+    margin: 64px auto 0 auto;
+    border-top: 0.1vw solid oklch(0.707 0.165 254.624);
+;
+    padding: 48px 0;
+
+    h3 {
+        color: white;
+        margin-bottom: 32px;
+        font-size: 24px;
+    }
+
+    .partners-grid {
+        /* NOTE: pure css grid does not "factorise" your grid. You need JS for that. /
+        / I haven't taken the time to set that up. This means that if you add        /
+        / another archive, you'll need to change this code a little.                */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 1fr);
+        gap: 24px;
+        max-width: 1280px;
+        margin: 0 auto;
+
+        @media (min-width: 640px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (min-width: 1024px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
