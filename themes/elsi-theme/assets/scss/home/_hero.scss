@@ -44,12 +44,12 @@
 
         .hero-button-primary {
             width: 126px;
-            background-color: oklch(0.546 0.245 262.881 / 1);
+            background-color: $calm-blue;
             color: white;
             gap: 8px;
 
             &:hover {
-                background-color: oklch(0.48 0.245 262.881 / 1);
+                background-color: $calm-blue-dark;
             }
         }
 
@@ -60,8 +60,8 @@
 
         .hero-button-secondary {
             width: 153px;
-            border: 2px solid oklch(0.546 0.245 262.881 / 1);
-            color: oklch(0.546 0.245 262.881 / 1);
+            border: 2px solid $calm-blue;
+            color: $calm-blue;
 
             &:hover {
                 background-color: white;

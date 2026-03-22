@@ -21,7 +21,7 @@ h2 {
 
 h3 {
   font-size: 20px;
-  color: oklch(0.21 0.034 264.665);
+  color: $very-dark-blue;
   font-weight: 600;
 }
 
@@ -37,7 +37,7 @@ p {
 }
 
 svg {
-  color: oklch(54.6% .245 262.881);
+  color: $calm-blue;
 }
 
 .inline-svg {

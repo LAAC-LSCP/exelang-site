@@ -1,5 +1,47 @@
 {{ define "main" }}
 {{ with site.GetPage "publications/publications.md" }}
 {{ partial "publications/banner.html" . }}
+<section class="published-papers publications-body">
+    {{ $papers := .Params.papers }}
+    <div class="header-container inline-svg">
+        {{ partial (printf "icons/%s.html" $papers.icon) . }}
+        <h2>
+            {{ $papers.descriptive }}
+        </h2>
+    </div>
+</section>
+<section class="conference-presentations publications-body">
+    {{ $presentations := .Params.presentations }}
+    <div class="header-container inline-svg">
+        {{ partial (printf "icons/%s.html" $presentations.icon) . }}
+        <h2>
+            {{ $presentations.descriptive }}
+        </h2>
+    </div>
+</section>
+<section class="publications-community-outreach publications-body">
+    {{ $community := .Params.community }}
+    <div class="header-container inline-svg">
+        {{ partial (printf "icons/%s.html" $community.icon) . }}
+        <h2>
+            {{ $community.descriptive }}
+        </h2>
+    </div>
+</section>
+<section class="publications-research-impact">
+    <h2>{{ .Params.research_impact_title }}</h2>
+    <div class="research-impact-grid">
+        {{ range .Params.research_impacts}}
+        <div class="research-impact-text">
+            <h3>
+                {{ .num }}+
+            </h3>
+            <h4>
+                {{ .descriptive }}
+            </h4>
+        </div>
+        {{ end }}
+    </div>
+</section>
 {{ end }}
 {{ end }}

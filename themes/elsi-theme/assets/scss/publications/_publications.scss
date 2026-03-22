@@ -1,0 +1,15 @@
+.publications-body {
+    padding: 64px 32px;
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+        margin-bottom: 32px;
+
+        svg {
+            height: 32px;
+            width: 32px;
+        }
+    }
+}

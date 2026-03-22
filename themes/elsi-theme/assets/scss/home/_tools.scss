@@ -23,7 +23,7 @@
         padding: 32px;
 
         border-radius: 16px;
-        background-image: linear-gradient(to right, oklch(0.546 0.245 262.881) 0%, oklch(0.511 0.262 276.966) 100%);
+        background-image: linear-gradient(to right, $calm-blue 0%, $calm-blue-purple 100%);
     }
 
     .tools-grid {
