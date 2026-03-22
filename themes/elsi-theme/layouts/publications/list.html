@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{ with site.GetPage "publications/publications.md" }}
+{{ partial "publications/banner.html" . }}
+{{ end }}
+{{ end }}
