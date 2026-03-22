@@ -1,0 +1,47 @@
+.publication-card {
+    box-shadow: $card-box-shadow-dark;
+
+    h3 {
+        color: $very-dark-blue;
+        margin-bottom: 8px;
+        font-size: 24px;
+    }
+    
+    > p {
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+
+    .infos {
+        margin-bottom: 12px;
+        display: flex;
+        column-gap: 16px;
+
+        span {
+            font-size: 14px;
+            color: oklch(0.551 0.027 264.364);
+        }
+
+        span:first-child {
+            font-style: italic;
+        }
+    }
+
+    .links {
+        display: flex;
+        gap: 16px;
+    }
+
+    .links > a {
+        color: $calm-blue;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        line-height: 24px;
+
+        svg {
+            height: 16px;
+            width: 16px;
+        }
+    }
+}

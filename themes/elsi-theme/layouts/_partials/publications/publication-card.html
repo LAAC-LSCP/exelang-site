@@ -1,0 +1,27 @@
+<div class="publication-card hoverable-card shadowed-card">
+    <h3>
+        {{ .title }}
+    </h3>
+    <p>
+        {{ .subtitle }}
+    </p>
+    <div class="infos">
+    {{ $infos := .infos }}
+    {{ range $i, $info := $infos }}
+        <span>{{ $info }}</span>
+        {{ if lt $i (sub (len $infos) 1) }}
+            <span class="info-separator">•</span>
+        {{ end }}
+    {{ end }}
+    </div>
+    <div class="links">
+        {{ range .links }}
+            <a href="{{ .url }}">
+                {{ .text }}
+                {{ with .icon }}
+                    {{ partial (printf "icons/%s.html" .) . }}
+                {{ end }}
+            </a>
+        {{ end }}
+    </div>
+</div>

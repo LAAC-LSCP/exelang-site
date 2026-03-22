@@ -9,25 +9,32 @@
             {{ $papers.descriptive }}
         </h2>
     </div>
+    {{ range .Site.Data.publications }}
+    {{ partial "publications/publication-card.html" (
+    dict "title" .title "subtitle" .authors "infos" (slice .infos.journal .infos.year (printf "DOI: %s" .infos.doi)) "links" .links
+    )}}
+    {{ end }}
 </section>
-<section class="conference-presentations publications-body">
-    {{ $presentations := .Params.presentations }}
-    <div class="header-container inline-svg">
-        {{ partial (printf "icons/%s.html" $presentations.icon) . }}
-        <h2>
-            {{ $presentations.descriptive }}
-        </h2>
-    </div>
-</section>
-<section class="publications-community-outreach publications-body">
-    {{ $community := .Params.community }}
-    <div class="header-container inline-svg">
-        {{ partial (printf "icons/%s.html" $community.icon) . }}
-        <h2>
-            {{ $community.descriptive }}
-        </h2>
-    </div>
-</section>
+<div class="publications-body">
+    <section class="conference-presentations">
+        {{ $presentations := .Params.presentations }}
+        <div class="header-container inline-svg">
+            {{ partial (printf "icons/%s.html" $presentations.icon) . }}
+            <h2>
+                {{ $presentations.descriptive }}
+            </h2>
+        </div>
+    </section>
+    <section class="publications-community-outreach">
+        {{ $community := .Params.community }}
+        <div class="header-container inline-svg">
+            {{ partial (printf "icons/%s.html" $community.icon) . }}
+            <h2>
+                {{ $community.descriptive }}
+            </h2>
+        </div>
+    </section>
+</div>
 <section class="publications-research-impact">
     <h2>{{ .Params.research_impact_title }}</h2>
     <div class="research-impact-grid">

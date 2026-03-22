@@ -1,0 +1,82 @@
+[
+    {
+        "title": "The ExELang Ecosystem: Tools for Child Language Research",
+        "authors": "Tsuji, S., Lavechin, M., Räsänen, O., et al.",
+        "infos": {
+            "journal": "Journal of Speech, Language, and Hearing Research",
+            "year": "2026",
+            "doi": "10.1044/2026_JSLHR-26-00001"
+        },
+        "links": [
+            {
+                "text": "View Publication",
+                "url": "https://www.google.com/",
+                "icon": "external-link"
+            },
+            {
+                "text": "Download PDF",
+                "url": "https://www.google.com/"
+            }
+        ]
+    },
+    {
+        "title": "VTC2: Advanced Voice Type Classification for Daylong Recordings",
+        "authors": "Lavechin, M., Bousbib, R., Bredin, H., Dupoux, E.",
+        "infos": {
+            "journal": "Computer Speech & Language",
+            "year": "2025",
+            "doi": "10.1016/j.csl.2025.101234"
+        },
+        "links": [
+            {
+                "text": "View Publication",
+                "url": "https://www.google.com/",
+                "icon": "external-link"
+            },
+            {
+                "text": "Download PDF",
+                "url": "https://www.google.com/"
+            }
+        ]
+    },
+    {
+        "title": "BabyHubert: Self-Supervised Learning from Infant-Directed Speech",
+        "authors": "Räsänen, O., Kakouros, S., Soderstrom, M.",
+        "infos": {
+            "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+            "year": "2025",
+            "doi": "10.1109/TASLP.2025.1234567"
+        },
+        "links": [
+            {
+                "text": "View Publication",
+                "url": "https://www.google.com/",
+                "icon": "external-link"
+            },
+            {
+                "text": "Download PDF",
+                "url": "https://www.google.com/"
+            }
+        ]
+    },
+    {
+        "title": "ChildProject: A Framework for Managing Child Language Corpora",
+        "authors": "Gauthier, E., Tsuji, S., Cristia, A.",
+        "infos": {
+            "journal": "Behavior Research Methods",
+            "year": "2024",
+            "doi": "10.3758/s13428-024-01234-5"
+        },
+        "links": [
+            {
+                "text": "View Publication",
+                "url": "https://www.google.com/",
+                "icon": "external-link"
+            },
+            {
+                "text": "Download PDF",
+                "url": "https://www.google.com/"
+            }
+        ]
+    }
+]

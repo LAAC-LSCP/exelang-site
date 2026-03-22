@@ -15,3 +15,9 @@
         }
     }
 }
+
+.published-papers {
+    .publication-card:not(:last-child) {
+        margin-bottom: 24px;
+    }
+}
