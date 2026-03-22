@@ -6,17 +6,18 @@ title = 'My New Hugo Project'
   [[menus.main]]
     name = 'Home'
     pageRef = '/'
-    weight = 10
 
   [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
-    weight = 20
+    name = 'Documentation'
+    pageRef = '/documentation'
 
   [[menus.main]]
-    name = 'Tags'
-    pageRef = '/tags'
-    weight = 30
+    name = 'Publications and Outreach'
+    pageRef = '/publications'
+
+  [[menus.main]]
+    name = 'Meet the Team'
+    pageRef = '/meet-the-team'
 
 [module]
   [module.hugoVersion]

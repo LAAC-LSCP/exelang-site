@@ -2,6 +2,7 @@
 date = '2026-03-21T23:16:37+01:00'
 draft = false
 title = 'Resources'
+headless = true
 
 [[archives]]
 title = "HomeBank"

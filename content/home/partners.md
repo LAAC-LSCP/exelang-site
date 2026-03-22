@@ -2,6 +2,7 @@
 date = '2026-03-22T00:51:18+01:00'
 draft = false
 title = 'Partners'
+headless = true
 
 [[partners]]
 name = "ENS Paris"
