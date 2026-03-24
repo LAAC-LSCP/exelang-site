@@ -1,13 +1,15 @@
-.home-resources {
-    background-color: $very-light-gray;
-    padding: 80px 32px;
+.meet-the-team-core-team {
+    padding: 64px 32px;
 
-    .text-container {
+    .core-team > .headers {
+        max-width: 1280px;
+        margin: 0 auto;
         text-align: center;
         margin-bottom: 48px;
 
         h2 {
             margin-bottom: 16px;
+            font-size: 36px;
         }
 
         p {

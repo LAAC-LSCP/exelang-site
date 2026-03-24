@@ -27,18 +27,10 @@
     }
 
     .tools-grid {
-        display: grid;
-        gap: 24px;
-        grid-template-columns: 1fr;
-        max-width: 1280px;
-        padding-bottom: 48px;
+        margin-bottom: 48px;
 
-        /* NOTE: pure css grid does not "factorise" your grid. You need JS for that. /
-        / I haven't taken the time to set that up. This means that if you add        /
-        / another tool, you'll need to change this code a little.                   */
         @media (min-width: 768px) {
             justify-items: stretch;
-            grid-template-columns: repeat(2, 1fr);
         }
     }
 }

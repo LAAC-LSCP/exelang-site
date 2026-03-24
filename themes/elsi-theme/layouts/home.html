@@ -35,7 +35,7 @@
   <div class="who-for-text">
     {{ .Content }}
   </div>
-  <div class="who-for-grid">
+  <div class="grid-mixin four-grid">
     {{ range .Params.audiences }}
       {{ partial "home/who-for-card.html" . }}
     {{ end }}
@@ -52,7 +52,7 @@
   <h3>
     {{ .Params.title }}
   </h3>
-  <div class="tools-grid">
+  <div class="tools-grid grid-mixin two-grid">
     {{ range .Params.tools }}
       {{ partial "home/tool-card.html" . }}
     {{ end }}
@@ -96,7 +96,7 @@
   <div class="text-container">
     {{ .Content }}
   </div>
-  <div class="archive-grid">
+  <div class="archive-grid grid-mixin three-grid">
     {{ range .Params.archives }}
       {{ partial "home/archive-card.html" . }}
     {{ end }}
@@ -115,7 +115,7 @@
   {{ with site.GetPage "home/partners" }}
   <div class="partners">
     {{ .Content }}
-    <div class="partners-grid">
+    <div class="partners-grid grid-mixin four-grid">
       {{ range .Params.partners }}
         {{ partial "home/partner-card.html" . }}
       {{ end }}

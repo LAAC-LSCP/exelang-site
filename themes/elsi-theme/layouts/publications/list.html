@@ -54,7 +54,7 @@
             {{ $community.descriptive }}
         </h2>
     </div>
-    <div class="community-grid">
+    <div class="grid-mixin two-grid">
         {{ range .Params.info_boxes }}
         {{ partial "shared/info-box.html" (
             dict "title" .title
@@ -67,7 +67,7 @@
 </section>
 <section class="publications-research-impact">
     <h2>{{ .Params.research_impact_title }}</h2>
-    <div class="research-impact-grid">
+    <div class="grid-mixin four-grid">
         {{ range .Params.research_impacts }}
         <div class="research-impact-text">
             <h3>
