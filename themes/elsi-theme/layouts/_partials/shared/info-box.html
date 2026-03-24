@@ -1,0 +1,42 @@
+<div class="info-box shadowed-card">
+    {{ with .image }}
+    <div class="image-container">
+        <img src="/{{ . }}">
+    </div>
+    {{ end }}
+    <div class="text-container">
+        {{ with .title }}
+        <h3>{{ . }}</h3>
+        {{ end }}
+        {{ with .subtitle }}
+        <p class="subtitle">{{ . }}</p>
+        {{ end }}
+        {{ with .subsubtitle }}
+        <p class="subsubtitle">{{ . }}</p>
+        {{ end }}
+        {{ with .description }}
+        <div class="description-container">
+            <p>{{ . }}</p>
+        </div>
+        {{ end }}
+        {{ with .hyperlink }}
+        <a href="{{ .url }}" class="inline-svg">
+            {{ .text }}
+            {{ with .icon }}
+                {{ partial (printf "icons/%s.html" .) . }}
+            {{ end }}
+        </a>
+        {{ end }}
+        {{ with .links }}
+        <div class="links-container">
+            {{ range . }}
+            {{ if .url }}
+                <a href="{{ .url }}">{{ .text }}</a>
+            {{ else }}
+                <a>{{ .text }}</a>
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
