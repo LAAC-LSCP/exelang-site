@@ -1,10 +1,25 @@
 .publication-card {
     box-shadow: $card-box-shadow-dark;
 
-    h3 {
-        color: $very-dark-blue;
+    .header-container {
+        display: flex;
+        justify-content: space-between;
         margin-bottom: 8px;
-        font-size: 24px;
+
+        h3 {
+            color: $very-dark-blue;
+            font-size: 24px;
+        }
+
+        span {
+            margin-left: 12px;
+            font-size: 14px;
+            border-radius: 24px;
+            padding: 4px 12px;
+            background-color: oklch(0.932 0.032 255.585);
+            color: oklch(0.488 0.243 264.376);
+            line-height: 20px;
+        }
     }
     
     > p {

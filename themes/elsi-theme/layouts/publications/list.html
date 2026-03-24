@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ with site.GetPage "publications/publications.md" }}
-{{ partial "publications/banner.html" . }}
+{{ partial "shared/banner.html" . }}
 {{ $papers := .Params.papers }}
 <section class="published-papers publications-body">
     <div class="header-container inline-svg">
@@ -42,6 +42,7 @@
     "bibtex" .bibtex
     "infos" (slice .infos.location .infos.date)
     "links" .links
+    "type_of" .presentation_type
     ) }}
     {{ end }}
 </section>

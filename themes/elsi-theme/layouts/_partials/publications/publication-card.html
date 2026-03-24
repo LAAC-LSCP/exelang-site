@@ -1,7 +1,14 @@
 <div class="publication-card hoverable-card shadowed-card">
-    <h3>
-        {{ .title }}
-    </h3>
+    <div class="header-container">
+        <h3>
+            {{ .title }}
+        </h3>
+        {{ with .type_of}}
+        <span>
+            {{ . }}
+        </span>
+        {{ end }}
+    </div>
     <p>
         {{ .subtitle }}
     </p>

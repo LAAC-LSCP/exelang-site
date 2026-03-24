@@ -6,6 +6,7 @@
             "location": "Dublin, Ireland",
             "date": "September 2025"
         },
+        "presentation_type": "Keynote",
         "links": [
             {
                 "text": "View Materials",
@@ -22,6 +23,7 @@
             "location": "Edinburgh, UK",
             "date": "July 2025"
         },
+        "presentation_type": "Workshop",
         "links": [
             {
                 "text": "View Materials",
@@ -38,6 +40,7 @@
             "location": "Virtual",
             "date": "August 2024"
         },
+        "presentation_type": "Tutorial",
         "links": [
             {
                 "text": "View Materials",
