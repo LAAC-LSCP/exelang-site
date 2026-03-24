@@ -17,7 +17,8 @@
                 "text": "Download PDF",
                 "url": "https://www.google.com/"
             }
-        ]
+        ],
+        "bibtex": "@article{gauthier2024childproject,\n  title={ChildProject: A Framework for Managing Child Language Corpora},\n  author={Gauthier, Elodie and Tsuji, Sho and Cristia, Alejandrina},\n  journal={Behavior Research Methods},\n  year={2024},\n  doi={10.3758/s13428-024-01234-5}\n}\n"
     },
     {
         "title": "VTC2: Advanced Voice Type Classification for Daylong Recordings",
@@ -37,7 +38,8 @@
                 "text": "Download PDF",
                 "url": "https://www.google.com/"
             }
-        ]
+        ],
+        "bibtex": "@article{lavechin2025vtc2,\n  title={VTC2: Advanced Voice Type Classification for Daylong Recordings},\n  author={Lavechin, Marvin and Bousbib, Rachid and Bredin, Herv\\'e and Dupoux, Emmanuel},\n  journal={Computer Speech \\& Language},\n  year={2025},\n  doi={10.1016/j.csl.2025.101234}\n}\n"
     },
     {
         "title": "BabyHubert: Self-Supervised Learning from Infant-Directed Speech",
@@ -57,7 +59,8 @@
                 "text": "Download PDF",
                 "url": "https://www.google.com/"
             }
-        ]
+        ],
+        "bibtex": "@article{rasanen2025babyhubert,\n  title={BabyHubert: Self-Supervised Learning from Infant-Directed Speech},\n  author={R\"as\"anen, Okko and Kakouros, Simo and Soderstrom, Melanie},\n  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},\n  year={2025},\n  doi={10.1109/TASLP.2025.1234567}\n}\n"
     },
     {
         "title": "ChildProject: A Framework for Managing Child Language Corpora",
@@ -77,6 +80,7 @@
                 "text": "Download PDF",
                 "url": "https://www.google.com/"
             }
-        ]
+        ],
+        "bibtex": "@article{gauthier2024childproject,\n  title={ChildProject: A Framework for Managing Child Language Corpora},\n  author={Gauthier, Elodie and Tsuji, Sho and Cristia, Alejandrina},\n  journal={Behavior Research Methods},\n  year={2024},\n  doi={10.3758/s13428-024-01234-5}\n}\n"
     }
 ]

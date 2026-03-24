@@ -19,7 +19,7 @@
     .history {
         background-color: $very-light-gray;
         padding: 32px;
-        color: oklch(0.373 0.034 259.733);
+        color: $gray-blue;
 
         p:not(:last-child) {
             margin-bottom: 16px;

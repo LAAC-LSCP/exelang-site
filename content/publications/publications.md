@@ -4,6 +4,8 @@ draft = false
 title = 'Publications'
 
 research_impact_title = "Research Impact"
+citations_title = "How to Cite"
+bibtex_text = "Copy Bibtex"
 
 [papers]
 descriptive = "Published Papers"

@@ -1,0 +1,21 @@
+<div class="citation-box">
+    <div class="text-bar">
+        <div class="subtitle-container">
+            {{ with .icon }}
+                {{ partial (printf "icons/%s.html" .) . }}
+            {{ end }}
+            <h4>{{ .subtitle }}</h4>
+        </div>
+        <div class="clipboard-container">
+            {{ with .clipboard_icon }}
+                {{ partial (printf "icons/%s.html" .) . }}
+            {{ end }}
+            {{ .bibtex_text }}
+        </div>
+    </div>
+    <div class="bibtex-container">
+        <pre>
+            {{- .bibtex -}}
+        </pre>
+    </div>
+</div>
