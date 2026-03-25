@@ -96,7 +96,7 @@
   <div class="text-container">
     {{ .Content }}
   </div>
-  <div class="archive-grid grid-mixin three-grid">
+  <div class="grid-mixin three-grid">
     {{ range .Params.archives }}
       {{ partial "home/archive-card.html" . }}
     {{ end }}

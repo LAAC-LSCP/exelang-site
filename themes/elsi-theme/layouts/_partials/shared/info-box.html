@@ -23,18 +23,21 @@
         <a href="{{ .url }}" class="inline-svg">
             {{ .text }}
             {{ with .icon }}
-                {{ partial (printf "icons/%s.html" .) . }}
+            {{ partial (printf "icons/%s.html" .) . }}
             {{ end }}
         </a>
         {{ end }}
-        {{ with .links }}
-        <div class="links-container">
+        {{ with .icon_links }}
+        <div class="icon-links-container">
             {{ range . }}
-            {{ if .url }}
-                <a href="{{ .url }}">{{ .text }}</a>
-            {{ else }}
-                <a>{{ .text }}</a>
-            {{ end }}
+            <a href="{{ .url }}" class="inline-svg" target="_blank" rel="noopener">
+                {{ with .icon }}
+                {{ partial (printf "icons/%s.html" .) . }}
+                {{ end }}
+                {{ with .text }}
+                <span>{{ . }}</span>
+                {{ end }}
+            </a>
             {{ end }}
         </div>
         {{ end }}

@@ -31,4 +31,32 @@
             font-weight: 500;
         }
     }
+
+    .subtitle {
+        color: $calm-blue !important;
+        margin-bottom: 12px;
+        font-weight: 500;
+    }
+
+    .icon-links-container {
+        display: flex;
+        flex-direction: row;
+
+        column-gap: 12px;
+
+        a {
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+            background-color: $almost-very-light-gray;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a > svg {
+            color: black;
+        }
+    }
 }

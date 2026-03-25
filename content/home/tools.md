@@ -8,19 +8,19 @@ headless = true
 title = "ELSI"
 description = "Analyze child language recordings with comprehensive documentation and guides"
 hyperlink_text = "Learn more"
-hyperlink_url = ""
+hyperlink_url = "/test1"
 
 [[tools]]
 title = "VTC2"
 description = "Voice Type Classification tool for classifying voices in audio recordings"
 hyperlink_text = "Learn more"
-hyperlink_url = ""
+hyperlink_url = "/test2"
 
 [[tools]]
 title = "BabyHubert"
 description = "Advanced machine learning model for infant speech analysis and processing"
 hyperlink_text = "Learn more"
-hyperlink_url = ""
+hyperlink_url = "/test3"
 
 [[tools]]
 title = "ChildProject"
