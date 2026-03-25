@@ -1,13 +1,38 @@
 {{ define "main" }}
 {{ with site.GetPage "meet-the-team/meet-the-team.md" }}
 {{ partial "shared/banner.html" . }}
-<section class="meet-the-team-core-team">
-    {{ partial "meet-the-team/team.html" (
-        dict "header" .Params.core_team_header
-        "subheader" .Params.core_team_subheader
-        "team_members" .Params.team_members
+<section class="meet-the-team-core-team meet-the-team-section">
+    {{ partial "meet-the-team/team-members-grid.html" (
+        dict "team_members" .Params.team_members
+        "headers" .Params.core_team_headers
+        "subteam" "ELSI Team"
+        "grid_class" "three-grid"
         )
     }}
+</section>
+<section class="meet-the-team-custodians meet-the-team-section">
+    {{ partial "meet-the-team/team-members-grid.html" (
+        dict "team_members" .Params.team_members
+        "headers" .Params.custodians_headers
+        "subteam" "Project Custodians"
+        "grid_class" "three-grid"
+    )}}
+</section>
+<section class="meet-the-team-el1000 meet-the-team-section">
+    {{ partial "meet-the-team/team-members-grid.html" (
+        dict "team_members" .Params.team_members
+        "headers" .Params.el1000_headers
+        "subteam" "EL1000 Team"
+        "grid_class" "three-grid"
+    )}}
+</section>
+<section class="meet-the-team-collaborators meet-the-team-section">
+    {{ partial "meet-the-team/team-members-grid.html" (
+        dict "team_members" .Params.team_members
+        "headers" .Params.collaborators_headers
+        "subteam" "Collaborators"
+        "grid_class" "one-grid"
+    )}}
 </section>
 {{ end }}
 {{ end }}

@@ -1,14 +1,17 @@
 <div class="core-team">
-    <div class="headers">
-        <h2>{{ .header }}</h2>
-        <p>{{ .subheader}}</p>
+    <div class="meet-the-team-headers">
+        {{ with .headers }}
+            <h2>{{ .header }}</h2>
+            <p>{{ .subheader}}</p>
+        {{ end }}
     </div>
-    <div class="grid-mixin three-grid">
-        {{ range .team_members }}
+    <div class="grid-mixin {{ .grid_class }}">
+        {{ range where .team_members "subteam" .subteam }}
             {{ partial "shared/info-box.html" (
                 dict "image" .image
                 "title" .name
                 "subtitle" .subteam
+                "subsubtitle" .organization
                 "description" .description
                 "icon_links" .icon_links
             )}}

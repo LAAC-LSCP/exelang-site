@@ -1,4 +1,4 @@
-.meet-the-team-core-team {
+.meet-the-team-section {
     padding: 64px 32px;
 
     .info-box {
@@ -6,22 +6,6 @@
 
         &:hover {
             box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.2) 0px 2px 4px -2px;
-        }
-    }
-
-    .core-team > .headers {
-        max-width: 1280px;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 48px;
-
-        h2 {
-            margin-bottom: 16px;
-            font-size: 36px;
-        }
-
-        p {
-            font-size: 20px;
         }
     }
 
