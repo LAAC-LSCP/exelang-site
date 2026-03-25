@@ -20,4 +20,5 @@ location = "Finland"
 name = "CNRS"
 location = "France"
 +++
-### Partner Institutions
+## Partner Institutions
+Collaborating organizations supporting the ExELang ecosystem

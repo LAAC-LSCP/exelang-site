@@ -29,4 +29,17 @@
             }
         }
     }
+
+    .partners {
+        border-top: 0.1vw solid oklch(0.707 0.165 254.624);
+
+        h2 {
+            color: white;
+        }
+
+        > p {
+            color: $light-gray;
+            font-size: 16px;
+        }
+    }
 }

@@ -1,0 +1,16 @@
+.partners {
+    max-width: 1280px;
+    margin: 64px auto 0 auto;
+    padding: 48px 0;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+
+    > p {
+        font-size: 20px;
+        margin-bottom: 48px;
+    }
+}

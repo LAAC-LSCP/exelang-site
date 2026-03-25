@@ -111,16 +111,7 @@
       {{ .Params.link.descriptive }}
     </a>
   </div>
-  {{ end }}
-  {{ with site.GetPage "home/partners" }}
-  <div class="partners">
-    {{ .Content }}
-    <div class="partners-grid grid-mixin four-grid">
-      {{ range .Params.partners }}
-        {{ partial "home/partner-card.html" . }}
-      {{ end }}
-    </div>
-  </div>
-  {{ end }}
+{{ end }}
+{{ partial "shared/partners.html" . }}
 </section>
 {{ end }}

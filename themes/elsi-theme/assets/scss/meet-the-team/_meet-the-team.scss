@@ -30,3 +30,21 @@
         margin: 0 auto;
     }
 }
+
+.meet-the-team-partners {
+    .partners {
+        padding-top: 0;
+    }
+
+    h2 {
+        color: $very-dark-blue;
+        font-size: 36px;
+    }
+
+    .partner-card {
+        background-color: $very-light-gray;
+        h4, p {
+            color: $very-dark-blue;
+        }
+    }
+}
