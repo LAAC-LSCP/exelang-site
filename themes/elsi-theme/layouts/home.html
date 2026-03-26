@@ -4,11 +4,11 @@
   <div class="hero-container">
     {{ .Content }}
     <div class="hero-buttons">
-      <a class="hero-button hero-button-primary" class="inline-svg" href="{{ (site.GetPage `section` `tools`).RelPermalink }}">
+      <a class="big-button big-button-primary" class="inline-svg" href="{{ (site.GetPage `section` `tools`).RelPermalink }}">
         {{ .Params.tool_tag }}
         {{ partial "icons/right-arrow.html" . }}
       </a>
-      <a class="hero-button hero-button-secondary" href="{{ (site.GetPage `section` `docs`).RelPermalink }}">
+      <a class="big-button big-button-secondary" href="{{ (site.GetPage `section` `docs`).RelPermalink }}">
         {{ .Params.documentation_tag }}
       </a>
     </div>

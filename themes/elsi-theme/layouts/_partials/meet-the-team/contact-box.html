@@ -1,0 +1,18 @@
+<section class="meet-the-team-contact">
+    <div class="contact-box shadowed-card">
+        {{ .Content }}
+        <div class="contact-cards grid-mixin two-grid">
+            {{ range .contact_cards }}
+                <div class="contact-card">
+                    <h3>{{ .header }}</h3>
+                    <p> {{ .description }}</p>
+                </div>
+            {{ end }}
+        </div>
+        <div class="contact-buttons grid-mixin two-grid">
+            {{ range .contact_buttons }}
+                <a class="big-button {{ .button_class }}" href="{{ .url }}">{{ .text }}</a>
+            {{ end }}
+        </div>
+    </div>
+</section>

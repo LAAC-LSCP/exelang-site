@@ -48,3 +48,23 @@
         }
     }
 }
+
+.meet-the-team-contact {
+    padding: 64px 32px;
+    background-color: $very-light-gray;
+    margin: 0 auto;
+
+    .contact-box {
+        text-align: center;
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 16px;
+        }
+        
+        p {
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+    }
+}

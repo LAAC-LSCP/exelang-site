@@ -28,48 +28,17 @@
     .hero-buttons {
         display: inline-flex;
         gap: 16px;
-        
-        .hero-button {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 12px 32px;
-            border-radius: 10px;
-            transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
-            svg {
-                color: white;
-            }
+        > a {
+            height: 28px;
         }
 
-        .hero-button-primary {
+        .big-button-primary {
             width: 126px;
-            background-color: $calm-blue;
-            color: white;
-            gap: 8px;
-
-            &:hover {
-                background-color: $calm-blue-dark;
-            }
         }
 
-        .hero-button-primary > svg {
-            height: 20px;
-            width: 20px;
-        }
-
-        .hero-button-secondary {
+        .big-button-secondary {
             width: 153px;
-            border: 2px solid $calm-blue;
-            color: $calm-blue;
-
-            &:hover {
-                background-color: white;
-            }
         }
-    }
-
-    .hero-buttons > a {
-        height: 28px;
     }
 }
