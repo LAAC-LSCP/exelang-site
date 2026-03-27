@@ -1,0 +1,35 @@
+{
+  "name": "elsi-website",
+  "version": "0.1.0",
+  "description": "codebase for the elsi website",
+  "keywords": [
+    "exelang",
+    "elsi"
+  ],
+  "homepage": "https://github.com/LAAC-LSCP/exelang-site#readme",
+  "bugs": {
+    "url": "https://github.com/LAAC-LSCP/exelang-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LAAC-LSCP/exelang-site.git"
+  },
+  "license": "ISC",
+  "author": "Lawrence Borst",
+  "private": true,
+  "scripts": {
+    "build": "npm-run-all webpack hugo-build",
+    "hugo-build": "hugo --cleanDestinationDir",
+    "webpack": "node_modules/webpack/bin/webpack.js",
+    "webpack-watch": "node_modules/webpack/bin/webpack.js --watch",
+    "upload": "rsync -avz --delete ./public/ $UPLOAD_TARGET -e \"ssh -i ~/.ssh/$DEPLOYMENT_KEY\"",
+    "deploy": "npm-run-all webpack hugo-build upload",
+    "hugo-server": "hugo server --disableFastRender",
+    "dev": "npm-run-all webpack --parallel webpack-watch hugo-server"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2"
+  }
+}
