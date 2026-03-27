@@ -28,5 +28,7 @@ description = "Project management and data organization tools for child language
 hyperlink_text = "Learn more"
 hyperlink_url = "https://childproject.readthedocs.io/en/latest/"
 +++
+
 ### Working with multilingual data?
+
 Our tools support multiple languages and MLM (multilingual) profiles

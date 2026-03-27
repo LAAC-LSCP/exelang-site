@@ -1,86 +1,86 @@
 [
-    {
-        "title": "The ExELang Ecosystem: Tools for Child Language Research",
-        "authors": "Tsuji, S., Lavechin, M., Räsänen, O., et al.",
-        "infos": {
-            "journal": "Journal of Speech, Language, and Hearing Research",
-            "year": "2026",
-            "doi": "10.1044/2026_JSLHR-26-00001"
-        },
-        "links": [
-            {
-                "text": "View Publication",
-                "url": "https://www.google.com/",
-                "icon": "external-link"
-            },
-            {
-                "text": "Download PDF",
-                "url": "https://www.google.com/"
-            }
-        ],
-        "bibtex": "@article{gauthier2024childproject,\n  title={ChildProject: A Framework for Managing Child Language Corpora},\n  author={Gauthier, Elodie and Tsuji, Sho and Cristia, Alejandrina},\n  journal={Behavior Research Methods},\n  year={2024},\n  doi={10.3758/s13428-024-01234-5}\n}\n"
+  {
+    "title": "The ExELang Ecosystem: Tools for Child Language Research",
+    "authors": "Tsuji, S., Lavechin, M., Räsänen, O., et al.",
+    "infos": {
+      "journal": "Journal of Speech, Language, and Hearing Research",
+      "year": "2026",
+      "doi": "10.1044/2026_JSLHR-26-00001"
     },
-    {
-        "title": "VTC2: Advanced Voice Type Classification for Daylong Recordings",
-        "authors": "Lavechin, M., Bousbib, R., Bredin, H., Dupoux, E.",
-        "infos": {
-            "journal": "Computer Speech & Language",
-            "year": "2025",
-            "doi": "10.1016/j.csl.2025.101234"
-        },
-        "links": [
-            {
-                "text": "View Publication",
-                "url": "https://www.google.com/",
-                "icon": "external-link"
-            },
-            {
-                "text": "Download PDF",
-                "url": "https://www.google.com/"
-            }
-        ],
-        "bibtex": "@article{lavechin2025vtc2,\n  title={VTC2: Advanced Voice Type Classification for Daylong Recordings},\n  author={Lavechin, Marvin and Bousbib, Rachid and Bredin, Herv\\'e and Dupoux, Emmanuel},\n  journal={Computer Speech \\& Language},\n  year={2025},\n  doi={10.1016/j.csl.2025.101234}\n}\n"
+    "links": [
+      {
+        "text": "View Publication",
+        "url": "https://www.google.com/",
+        "icon": "external-link"
+      },
+      {
+        "text": "Download PDF",
+        "url": "https://www.google.com/"
+      }
+    ],
+    "bibtex": "@article{gauthier2024childproject,\n  title={ChildProject: A Framework for Managing Child Language Corpora},\n  author={Gauthier, Elodie and Tsuji, Sho and Cristia, Alejandrina},\n  journal={Behavior Research Methods},\n  year={2024},\n  doi={10.3758/s13428-024-01234-5}\n}\n"
+  },
+  {
+    "title": "VTC2: Advanced Voice Type Classification for Daylong Recordings",
+    "authors": "Lavechin, M., Bousbib, R., Bredin, H., Dupoux, E.",
+    "infos": {
+      "journal": "Computer Speech & Language",
+      "year": "2025",
+      "doi": "10.1016/j.csl.2025.101234"
     },
-    {
-        "title": "BabyHubert: Self-Supervised Learning from Infant-Directed Speech",
-        "authors": "Räsänen, O., Kakouros, S., Soderstrom, M.",
-        "infos": {
-            "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
-            "year": "2025",
-            "doi": "10.1109/TASLP.2025.1234567"
-        },
-        "links": [
-            {
-                "text": "View Publication",
-                "url": "https://www.google.com/",
-                "icon": "external-link"
-            },
-            {
-                "text": "Download PDF",
-                "url": "https://www.google.com/"
-            }
-        ],
-        "bibtex": "@article{rasanen2025babyhubert,\n  title={BabyHubert: Self-Supervised Learning from Infant-Directed Speech},\n  author={R\"as\"anen, Okko and Kakouros, Simo and Soderstrom, Melanie},\n  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},\n  year={2025},\n  doi={10.1109/TASLP.2025.1234567}\n}\n"
+    "links": [
+      {
+        "text": "View Publication",
+        "url": "https://www.google.com/",
+        "icon": "external-link"
+      },
+      {
+        "text": "Download PDF",
+        "url": "https://www.google.com/"
+      }
+    ],
+    "bibtex": "@article{lavechin2025vtc2,\n  title={VTC2: Advanced Voice Type Classification for Daylong Recordings},\n  author={Lavechin, Marvin and Bousbib, Rachid and Bredin, Herv\\'e and Dupoux, Emmanuel},\n  journal={Computer Speech \\& Language},\n  year={2025},\n  doi={10.1016/j.csl.2025.101234}\n}\n"
+  },
+  {
+    "title": "BabyHubert: Self-Supervised Learning from Infant-Directed Speech",
+    "authors": "Räsänen, O., Kakouros, S., Soderstrom, M.",
+    "infos": {
+      "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "year": "2025",
+      "doi": "10.1109/TASLP.2025.1234567"
     },
-    {
-        "title": "ChildProject: A Framework for Managing Child Language Corpora",
-        "authors": "Gauthier, E., Tsuji, S., Cristia, A.",
-        "infos": {
-            "journal": "Behavior Research Methods",
-            "year": "2024",
-            "doi": "10.3758/s13428-024-01234-5"
-        },
-        "links": [
-            {
-                "text": "View Publication",
-                "url": "https://www.google.com/",
-                "icon": "external-link"
-            },
-            {
-                "text": "Download PDF",
-                "url": "https://www.google.com/"
-            }
-        ],
-        "bibtex": "@article{gauthier2024childproject,\n  title={ChildProject: A Framework for Managing Child Language Corpora},\n  author={Gauthier, Elodie and Tsuji, Sho and Cristia, Alejandrina},\n  journal={Behavior Research Methods},\n  year={2024},\n  doi={10.3758/s13428-024-01234-5}\n}\n"
-    }
+    "links": [
+      {
+        "text": "View Publication",
+        "url": "https://www.google.com/",
+        "icon": "external-link"
+      },
+      {
+        "text": "Download PDF",
+        "url": "https://www.google.com/"
+      }
+    ],
+    "bibtex": "@article{rasanen2025babyhubert,\n  title={BabyHubert: Self-Supervised Learning from Infant-Directed Speech},\n  author={R\"as\"anen, Okko and Kakouros, Simo and Soderstrom, Melanie},\n  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},\n  year={2025},\n  doi={10.1109/TASLP.2025.1234567}\n}\n"
+  },
+  {
+    "title": "ChildProject: A Framework for Managing Child Language Corpora",
+    "authors": "Gauthier, E., Tsuji, S., Cristia, A.",
+    "infos": {
+      "journal": "Behavior Research Methods",
+      "year": "2024",
+      "doi": "10.3758/s13428-024-01234-5"
+    },
+    "links": [
+      {
+        "text": "View Publication",
+        "url": "https://www.google.com/",
+        "icon": "external-link"
+      },
+      {
+        "text": "Download PDF",
+        "url": "https://www.google.com/"
+      }
+    ],
+    "bibtex": "@article{gauthier2024childproject,\n  title={ChildProject: A Framework for Managing Child Language Corpora},\n  author={Gauthier, Elodie and Tsuji, Sho and Cristia, Alejandrina},\n  journal={Behavior Research Methods},\n  year={2024},\n  doi={10.3758/s13428-024-01234-5}\n}\n"
+  }
 ]

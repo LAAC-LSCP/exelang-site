@@ -1,10 +1,8 @@
 {{ with site.GetPage "home/partners" }}
 <div class="partners">
-    {{ .Content }}
-    <div class="partners-grid grid-mixin four-grid">
-        {{ range .Params.partners }}
-        {{ partial "shared/partner-card.html" . }}
-        {{ end }}
-    </div>
+  {{ .Content }}
+  <div class="partners-grid grid-mixin four-grid">
+    {{ range .Params.partners }} {{ partial "shared/partner-card.html" . }} {{ end }}
+  </div>
 </div>
 {{ end }}

@@ -1,36 +1,36 @@
 .big-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 32px;
-    border-radius: 10px;
-    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  border-radius: 10px;
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
-    svg {
-        color: white;
-    }
+  svg {
+    color: white;
+  }
 }
 
 .big-button-primary {
-    background-color: $calm-blue;
-    color: white;
-    gap: 8px;
+  background-color: $calm-blue;
+  color: white;
+  gap: 8px;
 
-    &:hover {
-        background-color: $calm-blue-dark;
-    }
+  &:hover {
+    background-color: $calm-blue-dark;
+  }
 }
 
 .big-button-primary > svg {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .big-button-secondary {
-    border: 2px solid $calm-blue;
-    color: $calm-blue;
+  border: 2px solid $calm-blue;
+  color: $calm-blue;
 
-    &:hover {
-        background-color: white;
-    }
+  &:hover {
+    background-color: white;
+  }
 }

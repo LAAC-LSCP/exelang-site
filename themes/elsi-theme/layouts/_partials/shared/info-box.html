@@ -1,45 +1,34 @@
 <div class="info-box shadowed-card">
-    {{ with .image }}
-    <div class="image-container">
-        <img src="/{{ . }}">
+  {{ with .image }}
+  <div class="image-container">
+    <img src="/{{ . }}" />
+  </div>
+  {{ end }}
+  <div class="text-container">
+    {{ with .title }}
+    <h3>{{ . }}</h3>
+    {{ end }} {{ with .subtitle }}
+    <p class="subtitle">{{ . }}</p>
+    {{ end }} {{ with .subsubtitle }}
+    <p class="subsubtitle">{{ . }}</p>
+    {{ end }} {{ with .description }}
+    <div class="description-container">
+      <p>{{ . }}</p>
+    </div>
+    {{ end }} {{ with .hyperlink }}
+    <a href="{{ .url }}" class="inline-svg">
+      {{ .text }} {{ with .icon }} {{ partial (printf "icons/%s.html" .) . }} {{ end }}
+    </a>
+    {{ end }} {{ with .icon_links }}
+    <div class="icon-links-container">
+      {{ range . }}
+      <a href="{{ .url }}" class="inline-svg" target="_blank" rel="noopener">
+        {{ with .icon }} {{ partial (printf "icons/%s.html" .) . }} {{ end }} {{ with .text }}
+        <span>{{ . }}</span>
+        {{ end }}
+      </a>
+      {{ end }}
     </div>
     {{ end }}
-    <div class="text-container">
-        {{ with .title }}
-        <h3>{{ . }}</h3>
-        {{ end }}
-        {{ with .subtitle }}
-        <p class="subtitle">{{ . }}</p>
-        {{ end }}
-        {{ with .subsubtitle }}
-        <p class="subsubtitle">{{ . }}</p>
-        {{ end }}
-        {{ with .description }}
-        <div class="description-container">
-            <p>{{ . }}</p>
-        </div>
-        {{ end }}
-        {{ with .hyperlink }}
-        <a href="{{ .url }}" class="inline-svg">
-            {{ .text }}
-            {{ with .icon }}
-            {{ partial (printf "icons/%s.html" .) . }}
-            {{ end }}
-        </a>
-        {{ end }}
-        {{ with .icon_links }}
-        <div class="icon-links-container">
-            {{ range . }}
-            <a href="{{ .url }}" class="inline-svg" target="_blank" rel="noopener">
-                {{ with .icon }}
-                {{ partial (printf "icons/%s.html" .) . }}
-                {{ end }}
-                {{ with .text }}
-                <span>{{ . }}</span>
-                {{ end }}
-            </a>
-            {{ end }}
-        </div>
-        {{ end }}
-    </div>
+  </div>
 </div>

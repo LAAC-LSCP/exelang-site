@@ -1,5 +1,6 @@
 {
   "name": "elsi-website",
+  "type": "module",
   "version": "0.1.0",
   "description": "codebase for the elsi website",
   "keywords": [
@@ -25,10 +26,22 @@
     "upload": "rsync -avz --delete ./public/ $UPLOAD_TARGET -e \"ssh -i ~/.ssh/$DEPLOYMENT_KEY\"",
     "deploy": "npm-run-all webpack hugo-build upload",
     "hugo-server": "hugo server --disableFastRender",
-    "dev": "npm-run-all webpack --parallel webpack-watch hugo-server"
+    "dev": "npm-run-all webpack --parallel webpack-watch hugo-server",
+    "lint:js": "eslint . --ext .js,.jsx,.mjs,.cjs",
+    "lint:css": "stylelint \"**/*.scss\"",
+    "check-format": "prettier --check .",
+    "lint": "npm run lint:js && npm run lint:css",
+    "fix:js": "eslint . --ext .js,.jsx,.mjs,.cjs --fix",
+    "fix:css": "stylelint \"**/*.scss\" --fix",
+    "fix:format": "prettier --write .",
+    "fix": "npm run fix:js && npm run fix:css && npm run fix:format"
   },
   "devDependencies": {
+    "eslint": "^10.1.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "^3.8.1",
+    "stylelint": "^17.6.0",
+    "stylelint-config-standard-scss": "^17.0.0",
     "webpack": "^5.105.4",
     "webpack-cli": "^7.0.2"
   }

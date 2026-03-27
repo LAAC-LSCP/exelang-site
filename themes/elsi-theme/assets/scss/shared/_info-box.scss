@@ -1,68 +1,66 @@
 .info-box {
-    padding: 0;
-    border-radius: 14px;
-    overflow: hidden;
+  padding: 0;
+  border-radius: 14px;
+  overflow: hidden;
 
-    .image-container {
-        width: 100%;
-        height: 180px;
+  .image-container {
+    width: 100%;
+    height: 180px;
 
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .text-container {
+    padding: 24px;
+
+    h3 {
+      font-size: 24px;
+      margin-bottom: 12px;
     }
 
-    .text-container {
-        padding: 24px;
-
-        h3 {
-            font-size: 24px;
-            margin-bottom: 12px;
-        }
-
-        .description-container {
-            margin-bottom: 16px;
-        }
-
-        a {
-            color: $calm-blue;
-            font-weight: 500;
-        }
+    .description-container {
+      margin-bottom: 16px;
     }
 
-    .subtitle {
-        color: $calm-blue !important;
-        margin-bottom: 12px;
-        font-weight: 500;
+    a {
+      color: $calm-blue;
+      font-weight: 500;
+    }
+  }
+
+  .subtitle {
+    color: $calm-blue !important;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  .subsubtitle {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: $platinum-gray-blue;
+  }
+
+  .icon-links-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+
+    a {
+      height: 36px;
+      width: 36px;
+      border-radius: 50%;
+      background-color: $almost-very-light-gray;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
-    .subsubtitle {
-        font-size: 14px;
-        margin-bottom: 12px;
-        color: $platinum-gray-blue;
+    a > svg {
+      color: black;
     }
-
-    .icon-links-container {
-        display: flex;
-        flex-direction: row;
-
-        column-gap: 12px;
-
-        a {
-            height: 36px;
-            width: 36px;
-            border-radius: 50%;
-            background-color: $almost-very-light-gray;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        a > svg {
-            color: black;
-        }
-    }
+  }
 }

@@ -1,27 +1,28 @@
 .publications-body {
-    padding: 0 32px;
-    max-width: 1280px;
-    margin: 64px auto;
+  padding: 0 32px;
+  max-width: 1280px;
+  margin: 64px auto;
 
-    .header-container {
-        display: flex;
-        align-items: center;
-        column-gap: 12px;
-        margin-bottom: 32px;
+  .header-container {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 32px;
 
-        svg {
-            height: 32px;
-            width: 32px;
-        }
+    svg {
+      height: 32px;
+      width: 32px;
     }
+  }
 }
 
-.published-papers, .conference-presentations {
-    .publication-card:not(:last-child) {
-        margin-bottom: 24px;
-    }
+.published-papers,
+.conference-presentations {
+  .publication-card:not(:last-child) {
+    margin-bottom: 24px;
+  }
 }
 
 .conference-presentations span {
-    font-style: normal !important;
+  font-style: normal !important;
 }

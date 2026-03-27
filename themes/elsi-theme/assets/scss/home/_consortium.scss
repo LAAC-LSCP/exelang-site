@@ -1,45 +1,45 @@
 .home-consortium {
-    text-align: center;
-    padding: 80px 32px;
-    background-color: $calm-blue;
+  text-align: center;
+  padding: 80px 32px;
+  background-color: $calm-blue;
 
-    .text-container {
-        h2 {
-            color: white;
-            margin-bottom: 24px;
-        }
-        p {
-            max-width: 860px;
-            margin: 0 auto 32px auto;
-            color: $light-gray;
-            font-weight: 500;
-        }
-
-        a {
-            display: inline-block;
-            background-color: white;
-            color: $calm-blue;
-            padding: 12px 32px;
-            border-radius: 10px;
-
-            transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-
-            &:hover {
-                background-color: $very-light-gray;
-            }
-        }
+  .text-container {
+    h2 {
+      color: white;
+      margin-bottom: 24px;
     }
 
-    .partners {
-        border-top: 0.1vw solid oklch(0.707 0.165 254.624);
-
-        h2 {
-            color: white;
-        }
-
-        > p {
-            color: $light-gray;
-            font-size: 16px;
-        }
+    p {
+      max-width: 860px;
+      margin: 0 auto 32px;
+      color: $light-gray;
+      font-weight: 500;
     }
+
+    a {
+      display: inline-block;
+      background-color: white;
+      color: $calm-blue;
+      padding: 12px 32px;
+      border-radius: 10px;
+      transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover {
+        background-color: $very-light-gray;
+      }
+    }
+  }
+
+  .partners {
+    border-top: 0.1vw solid oklch(70.7% 0.165 254.624deg);
+
+    h2 {
+      color: white;
+    }
+
+    > p {
+      color: $light-gray;
+      font-size: 16px;
+    }
+  }
 }

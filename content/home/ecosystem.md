@@ -4,7 +4,9 @@ draft = false
 title = 'Ecosystem'
 headless = true
 +++
+
 ## The ExELang Ecosystem
+
 A comprehensive suite of tools for child language research
 
 ![Ecosystem](/assets/ecosystem.png)

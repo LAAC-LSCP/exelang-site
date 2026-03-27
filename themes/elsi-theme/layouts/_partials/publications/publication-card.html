@@ -1,42 +1,25 @@
 <div class="publication-card hoverable-card shadowed-card">
-    <div class="header-container">
-        <h3>
-            {{ .title }}
-        </h3>
-        {{ with .type_of}}
-        <span>
-            {{ . }}
-        </span>
-        {{ end }}
-    </div>
-    <p>
-        {{ .subtitle }}
-    </p>
-    <div class="infos">
-        {{ $infos := .infos }}
-        {{ range $i, $info := $infos }}
-        <span>{{ $info }}</span>
-        {{ if lt $i (sub (len $infos) 1) }}
-        <span class="info-separator">•</span>
-        {{ end }}
-        {{ end }}
-    </div>
-    <div class="links">
-        {{ range .links }}
-        <a href="{{ .url }}">
-            {{ .text }}
-            {{ with .icon }}
-            {{ partial (printf "icons/%s.html" .) . }}
-            {{ end }}
-        </a>
-        {{ end }}
-    </div>
-    {{ partial "publications/citation-box.html" (dict
-        "icon" "rosette"
-        "clipboard_icon" "copy"
-        "subtitle" .citations_title
-        "bibtex_text" .bibtex_text
-        "bibtex" .bibtex
-        "context" .
-    ) }}
+  <div class="header-container">
+    <h3>{{ .title }}</h3>
+    {{ with .type_of}}
+    <span> {{ . }} </span>
+    {{ end }}
+  </div>
+  <p>{{ .subtitle }}</p>
+  <div class="infos">
+    {{ $infos := .infos }} {{ range $i, $info := $infos }}
+    <span>{{ $info }}</span>
+    {{ if lt $i (sub (len $infos) 1) }}
+    <span class="info-separator">•</span>
+    {{ end }} {{ end }}
+  </div>
+  <div class="links">
+    {{ range .links }}
+    <a href="{{ .url }}">
+      {{ .text }} {{ with .icon }} {{ partial (printf "icons/%s.html" .) . }} {{ end }}
+    </a>
+    {{ end }}
+  </div>
+  {{ partial "publications/citation-box.html" (dict "icon" "rosette" "clipboard_icon" "copy"
+  "subtitle" .citations_title "bibtex_text" .bibtex_text "bibtex" .bibtex "context" . ) }}
 </div>

@@ -1,60 +1,60 @@
 .contact-box {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 
-    .contact-cards {
-        max-width: 768px;
-        margin-bottom: 32px;
+  .contact-cards {
+    max-width: 768px;
+    margin-bottom: 32px;
+  }
+
+  .contact-card {
+    background-color: oklch(97% 0.014 254.604deg);
+    padding: 24px;
+    text-align: left;
+    border-radius: 10px;
+
+    h3 {
+      font-size: 18px;
+      color: $very-dark-blue;
+      margin-bottom: 8px;
     }
 
-    .contact-card {
-        background-color: oklch(0.97 0.014 254.604);
-        padding: 24px;
-        text-align: left;
-        border-radius: 10px;
-
-        h3 {
-            font-size: 18px;
-            color: $very-dark-blue;
-            margin-bottom: 8px;
-        }
-
-        p {
-            font-size: 14px;
-            color: $platinum-gray-blue;
-            margin-bottom: 12px;
-        }
+    p {
+      font-size: 14px;
+      color: $platinum-gray-blue;
+      margin-bottom: 12px;
     }
+  }
 
-    .contact-buttons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 
-        @media (max-width: 768px) {
-            display: grid;
-        }
+    @media (width <= 768px) {
+      display: grid;
     }
+  }
 
-    .contact-button {
-        width: auto;
+  .contact-button {
+    width: auto;
+  }
+
+  .contact-buttons > a {
+    width: fit-content;
+    padding: 12px 32px;
+    font-weight: 500;
+    height: 28px;
+
+    @media (width <= 768px) {
+      margin: 0 auto;
     }
+  }
 
-    .contact-buttons > a {
-        width: fit-content;
-        padding: 12px 32px;
-        font-weight: 500;
-        height: 28px;
-
-        @media (max-width: 768px) {
-            margin: 0 auto;
-        }
+  .contact-buttons > .big-button-secondary {
+    &:hover {
+      background-color: oklch(97% 0.014 254.604deg);
     }
-
-    .contact-buttons > .big-button-secondary {
-        &:hover {
-            background-color: oklch(0.97 0.014 254.604);
-        }
-    }
+  }
 }

@@ -1,16 +1,15 @@
 .archive-card {
-    text-align: center;
+  text-align: center;
 
-    h3 {
-        margin-bottom: 8px;
-    }
+  h3 {
+    margin-bottom: 8px;
+  }
 
-    svg {
-        width: 48px;
-        height: 48px;
+  svg {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
 
-        margin-bottom: 16px;
-    }
-
-    box-shadow: $card-box-shadow-dark;
+  box-shadow: $card-box-shadow-dark;
 }
