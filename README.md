@@ -12,12 +12,6 @@ Hugo allows for custom "themes". It's best practice to put markdown, stylesheets
 - `/static`: static files, such as images
 - `/data`: more volatile/changing data, such as a list of publications and conference presentations. More "static" data is kept inside the TOML-based preamble inside the markdown files
 
-## Development
-
-The site is made with Hugo, a static site generator. You can find download and installation instructions at https://gohugo.io/installation/.
-
-If all goes well, you should be able to run `hugo --help` and see some valid output. When Hugo is installed, `cd` into the root of this repository and run `hugo server`. This will serve the website, likely at http://localhost:1313/. Hugo continually watches for changes.
-
 ## Support
 
 #### Sometimes I don't see my changes?
@@ -175,59 +169,57 @@ index index.html;
 
 Double check the configuration with `sudo nginx -t`, reload with `sudo systemctl reload nginx`, and visit `http://[external IP]` in your browser. You should now see the ELSI page!
 
-## Development Workflow
 
-### JavaScript, Webpack, and npm
+## Development
 
-This project uses JavaScript for custom web functionality, bundled with Webpack. Both Node.js and npm are required. Here are the steps:
+This project uses Hugo (a static site generator), JavaScript, SCSS, and npm for development. It also uses automated linting and formatting tools to ensure code quality and consistency.
 
-#### Install Node.js and npm
+### Local Development
 
-If you don't have Node.js and npm, install them using Node Version Manager (nvm):
+1. **Install Hugo:**
+   - Download and install Hugo from https://gohugo.io/installation/.
+   - Verify installation with `hugo --help`.
 
-- Install nvm: https://github.com/nvm-sh/nvm
-- Run `nvm install node` to get the latest version of Node.js and npm
+2. **Install Node.js and npm:**
+   - Use Node Version Manager (nvm): https://github.com/nvm-sh/nvm
+   - Run `nvm install node` to get the latest version.
 
-#### Install Project Dependencies
+3. **Install Project Dependencies:**
+   - In the root of the repository, run:
+     ```bash
+     npm install
+     ```
 
-In the root of the repository, run:
+4. **Run the Development Server:**
+   - Start the Hugo and Webpack dev servers:
+     ```bash
+     npm run dev
+     ```
+   - The site will be served at http://localhost:1313/ and will watch for changes.
 
-```bash
-npm install
-```
+5. **Build for Production:**
+   - Run:
+     ```bash
+     NODE_ENV=production npx webpack
+     npm run build
+     ```
 
-This will install all JavaScript dependencies listed in package.json.
+### Linting, Formatting, and Fixing
 
-#### Build JavaScript with Webpack
+To ensure code quality, use the following npm scripts:
 
-The JavaScript source code lives in `themes/elsi-theme/assets/js/main.js` and is bundled by Webpack into `themes/elsi-theme/assets/js/app.js`.
+- **Lint JavaScript:** `npm run lint:js`
+- **Lint SCSS:** `npm run lint:css`
+- **Check formatting:** `npm run check-format`
+- **Auto-fix issues:** `npm run fix`
 
-To build the JavaScript bundle:
+The `fix` script will attempt to automatically fix issues in JavaScript, SCSS, and Markdown formatting using ESLint, Stylelint, and Prettier.
 
-```bash
-# For development (easier debugging, no minification):
-NODE_ENV=development npx webpack
+### Continuous Integration (CI)
 
-# For production (minified, optimized):
-NODE_ENV=production npx webpack
-```
+You can use the provided npm scripts for linting, formatting, and building in your CI system of choice. See the scripts section in package.json for details.
 
-This will generate or update `app.js`, which Hugo then processes and includes in the site.
-
-Just run the dev script and start coding!
-
-```bash
-npm run dev
-```
-
-Use CTRL+C to stop the development server.
-
-#### Production Environment
-
-In production, ensure you run the production build:
-
-```bash
-NODE_ENV=production npx webpack
-```
-
-Then run Hugo as usual to generate the static site.
+#### Notes
+- The JavaScript source code lives in `themes/elsi-theme/assets/js/main.js` and is bundled by Webpack into `themes/elsi-theme/assets/js/app.js`.
+- All styling is inside `.scss` files in the theme assets.
+- All visible text throughout the website can be found in `.json` or `.md` files.
