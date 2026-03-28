@@ -14,7 +14,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
+      - run: npm install eslint@latest stylelint@latest prettier@latest --save-dev
+      - run: npm install
       - run: npm run lint
       - run: npm run check-format
       - run: npm run build
