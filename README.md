@@ -34,6 +34,15 @@ I used the following book to understand this technology: https://learning.oreill
 
 ## Deployment
 
+### GitHub Actions Secrets for Deployment
+
+NOTE! To enable automated deployment via GitHub Actions, you must add the following repository secrets:
+
+- **UPLOAD_TARGET**: The rsync target string (e.g., user@host:/var/www/elsi-site/current)
+- **DEPLOYMENT_KEY**: The private SSH key (contents, not a path) used for deployment
+
+You can add these secrets in your repository settings under **Settings > Secrets and variables > Actions**.
+
 We have an automated deployment pipeline set up. For completeness, I include the steps here, although the GitHub actions are the "definitive" source of documentation as far as deployment is concerned.
 
 ### Deployment: Uploading with SSH and Environment Variables

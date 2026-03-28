@@ -16,6 +16,11 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run check-format
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
       - run: npm run build
       - name: Set up SSH key
         run: |

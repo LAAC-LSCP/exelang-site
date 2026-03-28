@@ -19,7 +19,8 @@
   }
 }
 
-@media (width >= 560px) {
+/* stylelint-disable-next-line */
+@media (min-width: 560px) {
   .partner-card {
     max-width: 560px;
   }

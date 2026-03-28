@@ -41,7 +41,8 @@
   max-width: 1280px;
   margin: 0 auto;
 
-  @media (width >= 1280px) {
+  /* stylelint-disable-next-line */
+  @media (min-width: 1280px) {
     .header-inner {
       padding: 0 32px;
     }

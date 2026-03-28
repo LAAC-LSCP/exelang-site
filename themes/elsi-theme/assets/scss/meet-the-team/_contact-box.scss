@@ -32,7 +32,8 @@
     align-items: center;
     gap: 16px;
 
-    @media (width <= 768px) {
+    /* stylelint-disable-next-line */
+    @media (min-width: 768px) {
       display: grid;
     }
   }
@@ -47,7 +48,8 @@
     font-weight: 500;
     height: 28px;
 
-    @media (width <= 768px) {
+    /* stylelint-disable-next-line */
+    @media (min-width: 768px) {
       margin: 0 auto;
     }
   }

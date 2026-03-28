@@ -11,23 +11,27 @@
 }
 
 .two-grid {
-  @media (width >= 768px) {
+  /* stylelint-disable-next-line */
+  @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 .three-grid {
-  @media (width >= 768px) {
+  /* stylelint-disable-next-line */
+  @media (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 .four-grid {
-  @media (width >= 640px) {
+  /* stylelint-disable-next-line */
+  @media (min-width: 640px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (width >= 1024px) {
+  /* stylelint-disable-next-line */
+  @media (min-width: 1024px) {
     grid-template-columns: repeat(4, 1fr);
   }
 }

@@ -29,7 +29,8 @@
   .tools-grid {
     margin-bottom: 48px;
 
-    @media (width >= 768px) {
+    /* stylelint-disable-next-line */
+    @media (min-width: 768px) {
       justify-items: stretch;
     }
   }

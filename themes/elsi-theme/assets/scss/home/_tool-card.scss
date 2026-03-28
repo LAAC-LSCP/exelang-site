@@ -17,7 +17,8 @@
   }
 }
 
-@media (width >= 560px) {
+/* stylelint-disable-next-line */
+@media (min-width: 560px) {
   .tool-card {
     max-width: 560px;
   }
