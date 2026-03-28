@@ -1,44 +1,44 @@
 .home-hero {
-    padding: 80px 32px;
-	background-color: oklch(0.95 0.02 268.01);
-    text-align: center;
+  padding: 80px 32px;
+  background-color: oklch(95% 0.02 268.01deg);
+  text-align: center;
 }
 
 .home-hero {
-    .hero-container {
+  .hero-container {
     max-width: 1280px;
     margin: 0 auto;
 
-        > h1 {
-            color: black;
-            margin-bottom: 24px;
-        }
-
-        > p {
-            max-width: 896px;
-            margin: 0 auto;
-            margin-bottom: 32px;
-        }
-
-        p:first-of-type {
-            font-size: 20px;
-        }
+    > h1 {
+      color: black;
+      margin-bottom: 24px;
     }
 
-    .hero-buttons {
-        display: inline-flex;
-        gap: 16px;
-
-        > a {
-            height: 28px;
-        }
-
-        .big-button-primary {
-            width: 126px;
-        }
-
-        .big-button-secondary {
-            width: 153px;
-        }
+    > p {
+      max-width: 896px;
+      margin: 0 auto;
+      margin-bottom: 32px;
     }
+
+    p:first-of-type {
+      font-size: 20px;
+    }
+  }
+
+  .hero-buttons {
+    display: inline-flex;
+    gap: 16px;
+
+    > a {
+      height: 28px;
+    }
+
+    .big-button-primary {
+      width: 126px;
+    }
+
+    .big-button-secondary {
+      width: 153px;
+    }
+  }
 }

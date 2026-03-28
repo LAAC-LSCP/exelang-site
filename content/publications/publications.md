@@ -53,5 +53,7 @@ text = "Get in Touch"
 url = "/collaborate"
 icon = "right-arrow"
 +++
+
 # Publications and Outreach
+
 Research publications, conference presentations, and community engagement

@@ -1,21 +1,25 @@
 .meet-the-team-section {
-    padding: 64px 32px;
+  padding: 64px 32px;
 
+  .info-box {
+    transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      box-shadow:
+        /* stylelint-disable */
+        rgba(0, 0, 0, 0.2) 0 4px 6px -1px,
+        rgba(0, 0, 0, 0.2) 0 2px 4px -2px;
+        /* stylelint-enable */
+    }
+  }
+
+  .core-team {
     .info-box {
-        transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1);
-
-        &:hover {
-            box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.2) 0px 2px 4px -2px;
-        }
+      background-color: $very-light-gray;
     }
 
-    .core-team {
-        .info-box {
-            background-color: $very-light-gray;
-        }
-
-        .info-box > .image-container {
-            height: 256px;
-        }
+    .info-box > .image-container {
+      height: 256px;
     }
+  }
 }

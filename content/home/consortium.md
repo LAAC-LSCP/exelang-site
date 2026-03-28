@@ -8,5 +8,7 @@ headless = true
 url = ""
 descriptive = "Learn More About EL1000"
 +++
+
 ## EL10000 Consortium
+
 A collaborative initiative bringing together researchers from around the world to advance our understanding of early language development through large-scale data collection and analysis

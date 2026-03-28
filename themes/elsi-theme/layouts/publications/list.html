@@ -1,84 +1,48 @@
-{{ define "main" }}
-{{ with site.GetPage "publications/publications.md" }}
-{{ partial "shared/banner.html" . }}
-{{ $papers := .Params.papers }}
+{{ define "main" }} {{ with site.GetPage "publications/publications.md" }} {{ partial
+"shared/banner.html" . }} {{ $papers := .Params.papers }}
 <section class="published-papers publications-body">
-    <div class="header-container inline-svg">
-        {{ partial (printf "icons/%s.html" $papers.icon) . }}
-        <h2>
-            {{ $papers.descriptive }}
-        </h2>
-    </div>
-    {{ $citationsTitle := .Params.citations_title }}
-    {{ $bibtex_text := .Params.bibtex_text }}
-    {{ range .Site.Data.publications }}
-    {{ partial "publications/publication-card.html" (
-    dict "title" .title
-    "subtitle" .authors
-    "citations_title" $citationsTitle
-    "bibtex_text" $bibtex_text
-    "bibtex" .bibtex
-    "infos" (slice .infos.journal .infos.year (printf "DOI: %s" .infos.doi))
-    "links" .links
-    ) }}
-    {{ end }}
+  <div class="header-container inline-svg">
+    {{ partial (printf "icons/%s.html" $papers.icon) . }}
+    <h2>{{ $papers.descriptive }}</h2>
+  </div>
+  {{ $citationsTitle := .Params.citations_title }} {{ $bibtex_text := .Params.bibtex_text }} {{
+  range .Site.Data.publications }} {{ partial "publications/publication-card.html" ( dict "title"
+  .title "subtitle" .authors "citations_title" $citationsTitle "bibtex_text" $bibtex_text "bibtex"
+  .bibtex "infos" (slice .infos.journal .infos.year (printf "DOI: %s" .infos.doi)) "links" .links )
+  }} {{ end }}
 </section>
 {{ $presentations := .Params.presentations }}
 <section class="conference-presentations publications-body">
-    <div class="header-container inline-svg">
-        {{ partial (printf "icons/%s.html" $presentations.icon) . }}
-        <h2>
-            {{ $presentations.descriptive }}
-        </h2>
-    </div>
-    {{ $citationsTitle := .Params.citations_title }}
-    {{ $bibtex_text := .Params.bibtex_text }}
-    {{ range .Site.Data.conference_presentations }}
-    {{ partial "publications/publication-card.html" (
-    dict "title" .title
-    "subtitle" .association
-    "citations_title" $citationsTitle
-    "bibtex_text" $bibtex_text
-    "bibtex" .bibtex
-    "infos" (slice .infos.location .infos.date)
-    "links" .links
-    "type_of" .presentation_type
-    ) }}
-    {{ end }}
+  <div class="header-container inline-svg">
+    {{ partial (printf "icons/%s.html" $presentations.icon) . }}
+    <h2>{{ $presentations.descriptive }}</h2>
+  </div>
+  {{ $citationsTitle := .Params.citations_title }} {{ $bibtex_text := .Params.bibtex_text }} {{
+  range .Site.Data.conference_presentations }} {{ partial "publications/publication-card.html" (
+  dict "title" .title "subtitle" .association "citations_title" $citationsTitle "bibtex_text"
+  $bibtex_text "bibtex" .bibtex "infos" (slice .infos.location .infos.date) "links" .links "type_of"
+  .presentation_type ) }} {{ end }}
 </section>
 <section class="publications-community-outreach publications-body">
-    {{ $community := .Params.community }}
-    <div class="header-container inline-svg">
-        {{ partial (printf "icons/%s.html" $community.icon) . }}
-        <h2>
-            {{ $community.descriptive }}
-        </h2>
-    </div>
-    <div class="grid-mixin two-grid">
-        {{ range .Params.info_boxes }}
-        {{ partial "shared/info-box.html" (
-            dict "title" .title
-            "image" .image
-            "description" .description
-            "hyperlink" .hyperlink
-        )}}
-        {{ end }}
-    </div>
+  {{ $community := .Params.community }}
+  <div class="header-container inline-svg">
+    {{ partial (printf "icons/%s.html" $community.icon) . }}
+    <h2>{{ $community.descriptive }}</h2>
+  </div>
+  <div class="grid-mixin two-grid">
+    {{ range .Params.info_boxes }} {{ partial "shared/info-box.html" ( dict "title" .title "image"
+    .image "description" .description "hyperlink" .hyperlink )}} {{ end }}
+  </div>
 </section>
 <section class="publications-research-impact">
-    <h2>{{ .Params.research_impact_title }}</h2>
-    <div class="grid-mixin four-grid">
-        {{ range .Params.research_impacts }}
-        <div class="research-impact-text">
-            <h3>
-                {{ .num }}+
-            </h3>
-            <h4>
-                {{ .descriptive }}
-            </h4>
-        </div>
-        {{ end }}
+  <h2>{{ .Params.research_impact_title }}</h2>
+  <div class="grid-mixin four-grid">
+    {{ range .Params.research_impacts }}
+    <div class="research-impact-text">
+      <h3>{{ .num }}+</h3>
+      <h4>{{ .descriptive }}</h4>
     </div>
+    {{ end }}
+  </div>
 </section>
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}

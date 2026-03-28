@@ -1,16 +1,14 @@
 <div>
-    <nav class="header-nav">
-        <div class="header-inner">
-            <div class="site-title">
-                ExELang
-            </div>
-            <div class="header-links">
-                {{ range site.Menus.main }}
-                    <div class="link">
-                        <a href="{{ .URL }}">{{ .Name }}</a>
-                    </div>
-                {{ end }}
-            </div>
+  <nav class="header-nav">
+    <div class="header-inner">
+      <div class="site-title">ExELang</div>
+      <div class="header-links">
+        {{ range site.Menus.main }}
+        <div class="link">
+          <a href="{{ .URL }}">{{ .Name }}</a>
         </div>
-    </nav>
+        {{ end }}
+      </div>
+    </div>
+  </nav>
 </div>

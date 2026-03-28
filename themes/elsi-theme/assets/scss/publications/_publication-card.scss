@@ -1,62 +1,62 @@
 .publication-card {
-    box-shadow: $card-box-shadow-dark;
+  box-shadow: $card-box-shadow-dark;
 
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 8px;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
 
-        h3 {
-            color: $very-dark-blue;
-            font-size: 24px;
-        }
-
-        span {
-            margin-left: 12px;
-            font-size: 14px;
-            border-radius: 24px;
-            padding: 4px 12px;
-            background-color: oklch(0.932 0.032 255.585);
-            color: oklch(0.488 0.243 264.376);
-            line-height: 20px;
-        }
-    }
-    
-    > p {
-        line-height: 24px;
-        margin-bottom: 8px;
+    h3 {
+      color: $very-dark-blue;
+      font-size: 24px;
     }
 
-    .infos {
-        margin-bottom: 12px;
-        display: flex;
-        column-gap: 16px;
+    span {
+      margin-left: 12px;
+      font-size: 14px;
+      border-radius: 24px;
+      padding: 4px 12px;
+      background-color: oklch(93.2% 0.032 255.585deg);
+      color: oklch(48.8% 0.243 264.376deg);
+      line-height: 20px;
+    }
+  }
 
-        span {
-            font-size: 14px;
-            color: oklch(0.551 0.027 264.364);
-        }
+  > p {
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
 
-        span:first-child {
-            font-style: italic;
-        }
+  .infos {
+    margin-bottom: 12px;
+    display: flex;
+    column-gap: 16px;
+
+    span {
+      font-size: 14px;
+      color: oklch(55.1% 0.027 264.364deg);
     }
 
-    .links {
-        display: flex;
-        gap: 16px;
+    span:first-child {
+      font-style: italic;
     }
+  }
 
-    .links > a {
-        color: $calm-blue;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        line-height: 24px;
+  .links {
+    display: flex;
+    gap: 16px;
+  }
 
-        svg {
-            height: 16px;
-            width: 16px;
-        }
+  .links > a {
+    color: $calm-blue;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 24px;
+
+    svg {
+      height: 16px;
+      width: 16px;
     }
+  }
 }

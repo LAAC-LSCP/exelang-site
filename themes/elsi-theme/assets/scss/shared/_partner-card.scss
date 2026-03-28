@@ -1,24 +1,25 @@
 .partner-card {
-    background-color: oklab(0.999994 0.0000455678 0.0000200868 / 0.1);
-    border-color: oklab(0.999994 0.0000455678 0.0000200868 / 0.2);
-    border-style: solid;
-    border-radius: 14px;
-    border-width: 0.1vw;
-    padding: 24px;
+  background-color: oklab(99.9994% 0 0 / 10%);
+  border-color: oklab(99.9994% 0 0 / 20%);
+  border-style: solid;
+  border-radius: 14px;
+  border-width: 0.1vw;
+  padding: 24px;
 
-    h4 {
-        color: white;
-        line-height: 24px;
-    }
+  h4 {
+    color: white;
+    line-height: 24px;
+  }
 
-    p {
-        color: $light-gray;
-        font-size: 14px;
-        margin-top: 4px;
-        line-height: 20px;
-    }
+  p {
+    color: $light-gray;
+    font-size: 14px;
+    margin-top: 4px;
+    line-height: 20px;
+  }
 }
 
+/* stylelint-disable-next-line */
 @media (min-width: 560px) {
   .partner-card {
     max-width: 560px;

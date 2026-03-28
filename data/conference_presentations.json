@@ -1,53 +1,53 @@
 [
-    {
-        "title": "ExELang: Building an Ecosystem for Child Language Research",
-        "association": "Interspeech 2025",
-        "infos": {
-            "location": "Dublin, Ireland",
-            "date": "September 2025"
-        },
-        "presentation_type": "Keynote",
-        "links": [
-            {
-                "text": "View Materials",
-                "url": "https://www.google.com/",
-                "icon": "right-arrow"
-            }
-        ],
-        "bibtex": "Tsuji, S., Lavechin, M., & Räsänen, O. (2025, September). ExELang: Building an Ecosystem for Child Language Research. Keynote presented at Interspeech 2025, Dublin, Ireland."
+  {
+    "title": "ExELang: Building an Ecosystem for Child Language Research",
+    "association": "Interspeech 2025",
+    "infos": {
+      "location": "Dublin, Ireland",
+      "date": "September 2025"
     },
-    {
-        "title": "Tools for Analyzing Daylong Audio Recordings",
-        "association": "International Congress of Infant Studies",
-        "infos": {
-            "location": "Edinburgh, UK",
-            "date": "July 2025"
-        },
-        "presentation_type": "Workshop",
-        "links": [
-            {
-                "text": "View Materials",
-                "url": "https://www.google.com/",
-                "icon": "right-arrow"
-            }
-        ],
-        "bibtex": "Lavechin, M., Cristia, A., & Dupoux, E. (2025, July). Tools for Analyzing Daylong Audio Recordings. Workshop presented at the International Congress of Infant Studies, Edinburgh, UK."
+    "presentation_type": "Keynote",
+    "links": [
+      {
+        "text": "View Materials",
+        "url": "https://www.google.com/",
+        "icon": "right-arrow"
+      }
+    ],
+    "bibtex": "Tsuji, S., Lavechin, M., & Räsänen, O. (2025, September). ExELang: Building an Ecosystem for Child Language Research. Keynote presented at Interspeech 2025, Dublin, Ireland."
+  },
+  {
+    "title": "Tools for Analyzing Daylong Audio Recordings",
+    "association": "International Congress of Infant Studies",
+    "infos": {
+      "location": "Edinburgh, UK",
+      "date": "July 2025"
     },
-    {
-        "title": "Machine Learning for Child Language Analysis",
-        "association": "ACL Workshop on Child Language",
-        "infos": {
-            "location": "Virtual",
-            "date": "August 2024"
-        },
-        "presentation_type": "Tutorial",
-        "links": [
-            {
-                "text": "View Materials",
-                "url": "https://www.google.com/",
-                "icon": "right-arrow"
-            }
-        ],
-        "bibtex": "Räsänen, O., & Tsuji, S. (2024, August). Machine Learning for Child Language Analysis. Tutorial presented at the ACL Workshop on Child Language, Virtual."
-    }
+    "presentation_type": "Workshop",
+    "links": [
+      {
+        "text": "View Materials",
+        "url": "https://www.google.com/",
+        "icon": "right-arrow"
+      }
+    ],
+    "bibtex": "Lavechin, M., Cristia, A., & Dupoux, E. (2025, July). Tools for Analyzing Daylong Audio Recordings. Workshop presented at the International Congress of Infant Studies, Edinburgh, UK."
+  },
+  {
+    "title": "Machine Learning for Child Language Analysis",
+    "association": "ACL Workshop on Child Language",
+    "infos": {
+      "location": "Virtual",
+      "date": "August 2024"
+    },
+    "presentation_type": "Tutorial",
+    "links": [
+      {
+        "text": "View Materials",
+        "url": "https://www.google.com/",
+        "icon": "right-arrow"
+      }
+    ],
+    "bibtex": "Räsänen, O., & Tsuji, S. (2024, August). Machine Learning for Child Language Analysis. Tutorial presented at the ACL Workshop on Child Language, Virtual."
+  }
 ]

@@ -1,19 +1,18 @@
 .blue-dot {
-    .outer-dot {
-        border-radius: 100%;
-        background-color: $light-gray;
-        height: 24px;
-        width: 24px;
+  .outer-dot {
+    border-radius: 100%;
+    background-color: $light-gray;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .inner-dot {
-        border-radius: 100%;
-        background-color: $calm-blue;
-        height: 8px;
-        width: 8px;
-    }
+  .inner-dot {
+    border-radius: 100%;
+    background-color: $calm-blue;
+    height: 8px;
+    width: 8px;
+  }
 }

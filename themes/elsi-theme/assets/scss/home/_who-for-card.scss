@@ -1,22 +1,21 @@
 .who-for-card {
-    .who-for-icon {
-        border-radius: 10px;
-        width: 48px;
-        height: 48px;
-        margin-bottom: 16px;
+  .who-for-icon {
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    background-color: $light-gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-        background-color: $light-gray;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    h3 {
-        margin-bottom: 8px;
-    }
+  h3 {
+    margin-bottom: 8px;
+  }
 }
 
-
+/* stylelint-disable-next-line */
 @media (min-width: 560px) {
   .who-for-card {
     max-width: 560px;

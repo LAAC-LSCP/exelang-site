@@ -1,62 +1,64 @@
 .citation-box {
-    padding: 16px;
-    margin-top: 16px;
-    background-color: $very-light-gray;
+  padding: 16px;
+  margin-top: 16px;
+  background-color: $very-light-gray;
+  border: 1px solid $gray-border;
+  border-radius: 10px;
+
+  .text-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  .subtitle-container,
+  .clipboard-container {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .subtitle-container {
+    h4 {
+      line-height: 24px;
+      font-size: 16px;
+      color: $very-dark-blue;
+    }
+
+    svg {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .clipboard-container {
+    svg {
+      height: 16px;
+      width: 16px;
+    }
+
+    color: $calm-blue-dark;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .bibtex-container {
+    background-color: white;
     border: 1px solid $gray-border;
-    border-radius: 10px;
+    border-radius: 4px;
+    padding: 12px;
+    color: $gray-blue;
+    font-size: 12px;
+    line-height: 16px;
+    font-family:
+      ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+      monospace;
 
-    .text-bar {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 8px;
+    pre {
+      white-space: pre-wrap;
+      word-break: keep-all;
+      overflow-wrap: anywhere;
     }
-
-    .subtitle-container, .clipboard-container {
-        display: flex;
-        justify-content: row;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .subtitle-container {
-        h4 {
-            line-height: 24px;
-            font-size: 16px;
-            color: $very-dark-blue;
-        }
-
-        svg {
-            height: 20px;
-            width: 20px;
-        }
-    }
-
-    .clipboard-container {
-        svg {
-            height: 16px;
-            width: 16px;
-        }
-
-        color: $calm-blue-dark;
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    .bibtex-container {
-        background-color: white;
-        border: 1px solid $gray-border;
-        border-radius: 4px;
-        padding: 12px;
-        color: $gray-blue;
-
-        font-size: 12px;
-        line-height: 16px;
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
-        pre {
-            white-space: pre-wrap;
-            word-break: keep-all;
-            overflow-wrap: anywhere;
-        }
-    }
+  }
 }

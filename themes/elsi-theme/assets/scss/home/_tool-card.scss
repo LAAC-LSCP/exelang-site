@@ -1,22 +1,23 @@
 .tool-card {
-    h3 {
-      margin-bottom: 8px;
-      text-align: left !important;
-    }
+  h3 {
+    margin-bottom: 8px;
+    text-align: left !important;
+  }
 
-    a {
-      color: $calm-blue;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.25em;
-      font-size: 1em;
-    }
+  a {
+    color: $calm-blue;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+    font-size: 1em;
+  }
 
-    p {
-        margin-bottom: 16px;
-    }
+  p {
+    margin-bottom: 16px;
+  }
 }
 
+/* stylelint-disable-next-line */
 @media (min-width: 560px) {
   .tool-card {
     max-width: 560px;

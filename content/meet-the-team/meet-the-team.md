@@ -175,5 +175,7 @@ image = "images/office.jpeg"
     url = "https://google.com"
     icon = "world"
 +++
+
 # Meet the Team
+
 The researchers, custodians, and collaborators behind the ExELang ecosystem
