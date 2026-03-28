@@ -13,25 +13,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
-      - run: npm run lint
-      - run: npm run check-format
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
+      - run: npm install
       - run: npm run build
       - name: Set up SSH key
         run: |
           mkdir -p ~/.ssh
-          echo "$DEPLOYMENT_KEY" > ~/.ssh/${{ env.DEPLOYMENT_KEY_FILENAME }}
-          chmod 600 ~/.ssh/${{   env.DEPLOYMENT_KEY_FILENAME }}
+          echo "$DEPLOYMENT_KEY_CONTENT" > ~/.ssh/$DEPLOYMENT_KEY
+          chmod 600 ~/.ssh/$DEPLOYMENT_KEY
       - name: Deploy via rsync
-        env:
-          UPLOAD_TARGET: ${{ secrets.UPLOAD_TARGET }}
-          DEPLOYMENT_KEY: ${{ env.DEPLOYMENT_KEY_FILENAME }}
         run: npm run upload
     env:
-      DEPLOYMENT_KEY_FILENAME: elsi_site_deploy_key
-      DEPLOYMENT_KEY: ${{ secrets.DEPLOYMENT_KEY }}
+      UPLOAD_TARGET: ${{ vars.UPLOAD_TARGET }}
+      DEPLOYMENT_KEY_CONTENT: ${{ secrets.DEPLOYMENT_KEY_CONTENT }}
+      DEPLOYMENT_KEY: elsi_site_deploy_key

@@ -1,4 +1,2 @@
-# Ignore all SCSS files from Prettier formatting
-**/*.scss
 # Ignore built/bundled files
 themes/elsi-theme/assets/js/app.js

@@ -110,12 +110,27 @@ sudo mkdir -p /var/www/elsi-site/current;
 sudo chown -R website-deployer:website-deployer /var/www/elsi-site/current;
 ```
 
-Now **locally**, before running the upload script, set the UPLOAD_TARGET environment variable to your remote destination. For example:
+Now **locally** (or in your CI/CD secrets), before running the upload script, set the UPLOAD_TARGET environment variable to your remote destination. For example:
 
 ```bash
-export UPLOAD_TARGET=deploy@[external IP]:/var/www/elsi-site/current
+export UPLOAD_TARGET=website-deployer@[external IP]:/var/www/elsi-site/current
 export DEPLOYMENT_KEY=elsi_site_deploy_key  # preferably stick to this name
 ```
+
+**Notes about secrets:**
+
+- `UPLOAD_TARGET` should be in the format: `website-deployer@[external IP]:/var/www/elsi-site/current` (replace `website-deployer` with your deployment user if different).
+- `DEPLOYMENT_KEY` should be the **entire contents** of your private SSH key file, including the lines:
+
+  ```
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  ...key contents...
+  -----END OPENSSH PRIVATE KEY-----
+  ```
+
+- Make sure there are **no extra spaces or newlines** at the end, and copy everything exactly as it appears in your key file.
+
+If you are using GitHub Actions, add these as repository secrets under **Settings > Secrets and variables > Actions**. Paste the full private key (including BEGIN/END lines) into the secret value field.
 
 Now set up npm and Webpack as outlined in the development section. Ensure you run the production build:
 

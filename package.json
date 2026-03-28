@@ -22,7 +22,7 @@
     "hugo-build": "hugo --cleanDestinationDir",
     "webpack": "node_modules/webpack/bin/webpack.js",
     "webpack-watch": "node_modules/webpack/bin/webpack.js --watch",
-    "upload": "rsync -avz --delete ./public/ $UPLOAD_TARGET -e \"ssh -i ~/.ssh/$DEPLOYMENT_KEY\"",
+    "upload": "rsync -avz --delete ./public/ $UPLOAD_TARGET -e \"ssh -i ~/.ssh/$DEPLOYMENT_KEY -o StrictHostKeyChecking=no\"",
     "deploy": "npm-run-all webpack hugo-build upload",
     "hugo-server": "hugo server --disableFastRender",
     "dev": "npm-run-all webpack --parallel webpack-watch hugo-server",
