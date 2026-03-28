@@ -105,7 +105,7 @@ Now **locally**, before running the upload script, set the UPLOAD_TARGET environ
 
 ```bash
 export UPLOAD_TARGET=deploy@[external IP]:/var/www/elsi-site/current
-export DEPLOYMENT_KEY=elsi_site_deploy_key  # or whatever you named your ssh key
+export DEPLOYMENT_KEY=elsi_site_deploy_key  # preferably stick to this name
 ```
 
 Now set up npm and Webpack as outlined in the development section. Ensure you run the production build:
@@ -169,7 +169,6 @@ index index.html;
 
 Double check the configuration with `sudo nginx -t`, reload with `sudo systemctl reload nginx`, and visit `http://[external IP]` in your browser. You should now see the ELSI page!
 
-
 ## Development
 
 This project uses Hugo (a static site generator), JavaScript, SCSS, and npm for development. It also uses automated linting and formatting tools to ensure code quality and consistency.
@@ -220,6 +219,7 @@ The `fix` script will attempt to automatically fix issues in JavaScript, SCSS, a
 You can use the provided npm scripts for linting, formatting, and building in your CI system of choice. See the scripts section in package.json for details.
 
 #### Notes
+
 - The JavaScript source code lives in `themes/elsi-theme/assets/js/main.js` and is bundled by Webpack into `themes/elsi-theme/assets/js/app.js`.
 - All styling is inside `.scss` files in the theme assets.
 - All visible text throughout the website can be found in `.json` or `.md` files.

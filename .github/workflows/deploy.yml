@@ -1,0 +1,32 @@
+# Requires the following secrets to be set in your repository:
+# - UPLOAD_TARGET: The rsync target string (e.g., user@host:/path)
+# - DEPLOYMENT_KEY: The private SSH key for deployment (contents, not a path)
+name: Deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run check-format
+      - run: npm run build
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "$DEPLOYMENT_KEY" > ~/.ssh/${{ env.DEPLOYMENT_KEY_FILENAME }}
+          chmod 600 ~/.ssh/${{   env.DEPLOYMENT_KEY_FILENAME }}
+      - name: Deploy via rsync
+        env:
+          UPLOAD_TARGET: ${{ secrets.UPLOAD_TARGET }}
+          DEPLOYMENT_KEY: ${{ env.DEPLOYMENT_KEY_FILENAME }}
+        run: npm run upload
+    env:
+      DEPLOYMENT_KEY_FILENAME: elsi_site_deploy_key
+      DEPLOYMENT_KEY: ${{ secrets.DEPLOYMENT_KEY }}
