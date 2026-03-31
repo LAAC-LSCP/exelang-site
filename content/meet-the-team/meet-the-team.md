@@ -2,6 +2,7 @@
 date = '2026-03-24T22:42:58+01:00'
 draft = false
 title = 'Meet the Team'
+headless = true
 
 [core_team_headers]
 header = 'ELSI Team'
