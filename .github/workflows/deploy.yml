@@ -1,6 +1,8 @@
-# Requires the following secrets to be set in your repository:
+# Requires the following to be set in your repository:
+# Variables:
 # - UPLOAD_TARGET: The rsync target string (e.g., user@host:/path)
-# - DEPLOYMENT_KEY: The private SSH key for deployment (contents, not a path)
+# Secrets:
+# - DEPLOYMENT_KEY_CONTENT: The private SSH key for deployment
 name: Deploy
 on:
   push:
