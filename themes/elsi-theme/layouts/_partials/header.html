@@ -4,7 +4,7 @@
       <div class="site-title">ExELang</div>
       <div class="header-links">
         {{ range site.Menus.main }}
-        <div class="link">
+        <div class="link{{ if eq .URL $.RelPermalink }} active{{ end }}">
           <a href="{{ .URL }}">{{ .Name }}</a>
         </div>
         {{ end }}
