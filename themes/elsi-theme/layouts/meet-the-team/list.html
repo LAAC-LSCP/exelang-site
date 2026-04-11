@@ -17,7 +17,12 @@
   "headers" .Params.collaborators_headers "subteam" "Collaborators" "grid_class" "one-grid" )}}
 </section>
 {{ end }}
-<section class="meet-the-team-partners">{{ partial "shared/partners.html" }}</section>
+<section class="meet-the-team-partners meet-the-team-section">
+  {{ partial "shared/partners.html" }}
+</section>
+<section class="meet-the-team-funding meet-the-team-section">
+  {{ partial "shared/funding.html" }}
+</section>
 {{ with site.GetPage "meet-the-team/contact.md" }} {{ partial "meet-the-team/contact-box.html" (
 dict "Content" .Content "contact_cards" .Params.contact_cards "contact_buttons"
 .Params.contact_buttons "button_class" .Params.button_class )}} {{ end }} {{ end }}

@@ -88,6 +88,6 @@
     {{ .Content }}
     <a href="{{ .Params.link.url }}" class="learn-more"> {{ .Params.link.descriptive }} </a>
   </div>
-  {{ end }} {{ partial "shared/partners.html" . }}
+  {{ end }} {{ partial "shared/partners.html" . }} {{ partial "shared/funding.html " . }}
 </section>
 {{ end }}

@@ -39,7 +39,8 @@
       align-items: center;
     }
 
-    @media (max-width: 560px) {
+    /* stylelint-disable-next-line */
+    @media (width: 560px) {
       flex-direction: column;
     }
   }

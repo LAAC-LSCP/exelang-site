@@ -1,0 +1,19 @@
+{{ with site.GetPage "home/funding" }}
+<div class="funding-acknowledgement">
+  {{ .Content }}
+  <div class="funding-projects">
+    {{ range .Params.projects }}
+    <div class="funding-project">
+      <h4>{{ .project }}</h4>
+      <div class="funding-bodies">
+        {{ $bodies := .funding_bodies }} {{ range $i, $body := $bodies }}
+        <span>{{ $body.name }}</span>
+        {{ if lt $i (sub (len $bodies) 1) }}
+        <span class="info-separator">•</span>
+        {{ end }} {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

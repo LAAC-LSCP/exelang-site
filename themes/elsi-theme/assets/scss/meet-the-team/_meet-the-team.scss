@@ -32,10 +32,6 @@
 }
 
 .meet-the-team-partners {
-  .partners {
-    padding-top: 0;
-  }
-
   h2 {
     color: $very-dark-blue;
     font-size: 36px;
@@ -48,6 +44,24 @@
     p {
       color: $very-dark-blue;
     }
+  }
+}
+
+.meet-the-team-funding {
+  background-color: $very-light-gray;
+
+  h2 {
+    color: $very-dark-blue;
+    font-size: 36px;
+  }
+
+  .funding-acknowledgement {
+    padding-top: 0;
+
+      h4,
+      p {
+        color: $very-dark-blue;
+      }
   }
 }
 
