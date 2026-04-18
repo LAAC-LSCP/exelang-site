@@ -1,7 +1,8 @@
 {{ with site.GetPage "home/funding" }}
 <div class="funding-acknowledgement">
-  {{ .Content }}
+  <div class="text-box">{{ .Content }}</div>
   <div class="funding-projects">
+    <h3>{{ .Params.funding_title }}</h3>
     {{ range .Params.projects }}
     <div class="funding-project">
       <h4>{{ .project }}</h4>

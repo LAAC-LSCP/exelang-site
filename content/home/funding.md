@@ -4,6 +4,8 @@ draft = false
 title = 'Funding'
 headless = true
 
+funding_title = 'Funding'
+
 [[projects]]
 project = "ELSI V1"
 
@@ -23,4 +25,6 @@ project = "ELSI V2"
     name = "ERC ExELang"
 +++
 
-## Funding Acknowledgement
+## Acknowledgement
+
+We gratefully acknowledge the support of our funders and contributors

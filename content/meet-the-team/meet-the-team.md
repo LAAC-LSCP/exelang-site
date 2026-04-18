@@ -63,6 +63,34 @@ image = "images/office.jpeg"
     icon = "world"
 
 [[team_members]]
+name = "May Abdou"
+subteam = "ELSI Team"
+description = 'ELSI team member contributing to research and development.'
+image = "images/office.jpeg"
+
+    [[team_members.icon_links]]
+    url = "mailto:alex.eguiluz@example.com"
+    icon = "mail"
+
+    [[team_members.icon_links]]
+    url = "https://google.com"
+    icon = "world"
+
+[[team_members]]
+name = "Alicia Horton-Mastin"
+subteam = "ELSI Team"
+description = 'ELSI team member working on research initiatives.'
+image = "images/office.jpeg"
+
+    [[team_members.icon_links]]
+    url = "mailto:alex.eguiluz@example.com"
+    icon = "mail"
+
+    [[team_members.icon_links]]
+    url = "https://google.com"
+    icon = "world"
+
+[[team_members]]
 name = "Dr. Sho Tsuji"
 subteam = "Project Custodians"
 organization = "University of Tokyo"
