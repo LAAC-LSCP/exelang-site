@@ -1,3 +1,16 @@
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  /* stylelint-disable */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  /* stylelint-enable */
+  box-sizing: border-box;
+}
+
 .header-nav {
   padding: 0 2rem;
   height: 64px;
