@@ -1,0 +1,18 @@
+.note-box {
+    background-color: $cornflower-blue;
+    border-left: 4px solid $calm-blue;
+    padding: 24px;
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    p:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+}

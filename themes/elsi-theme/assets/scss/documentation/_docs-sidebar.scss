@@ -1,0 +1,48 @@
+.docs-sidebar {
+    background-color: white;
+    padding: 16px;
+    position: sticky;
+    top: 96px;
+    overflow-y: auto;
+    width: 20vw;
+    max-width: 260px;
+
+    h3 {
+        padding: 0 8px;
+        font-size: 18px;
+        margin-bottom: 16px;
+        line-height: 27px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        padding: 8px 12px;
+        color: $gray-blue;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        border-radius: 10px;
+    }
+
+    nav > button:not(:last-child) {
+        margin-bottom: 4px;
+    }
+
+    .active-sidebar-btn {
+        color: $ocean-blue;
+        background-color: $light-gray;
+        cursor: default;
+    }
+
+    .inactive-sidebar-btn {
+        transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            background-color: $almost-very-light-gray;
+        }
+    }
+}

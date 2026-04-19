@@ -1,0 +1,23 @@
+.docs-page-container {
+    align-self: flex-start;
+
+    > h2 {
+        font-size: 30px;
+        line-height: 36px;
+        color: $very-dark-blue;
+    }
+
+    > p {
+        font-size: 18px;
+        line-height: 28px;
+        color: $platinum-gray-blue;
+    }
+
+    > * {
+        margin-bottom: 24px;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}

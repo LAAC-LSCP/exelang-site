@@ -1,0 +1,9 @@
+<a class="link-button" href='{{ .Get "href" }}'>
+  <div class="text-container inline-svg">
+    <span class="header-content">
+      {{ with .Get "left_icon" }} {{ partial (printf "icons/%s.html" .) . }} {{ end }}
+      <span>{{ .Get "title" }}</span>
+    </span>
+    {{ with .Get "right_icon" }} {{ partial (printf "icons/%s.html" .) . }} {{ end }}
+  </div>
+</a>

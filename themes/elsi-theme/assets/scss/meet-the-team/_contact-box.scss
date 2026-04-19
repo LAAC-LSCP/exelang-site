@@ -8,7 +8,7 @@
   }
 
   .contact-card {
-    background-color: oklch(97% 0.014 254.604deg);
+    background-color: $cornflower-blue;
     padding: 24px;
     text-align: left;
     border-radius: 10px;
@@ -63,7 +63,7 @@
 
   .contact-buttons > .big-button-secondary {
     &:hover {
-      background-color: oklch(97% 0.014 254.604deg);
+      background-color: $cornflower-blue;
     }
   }
 }

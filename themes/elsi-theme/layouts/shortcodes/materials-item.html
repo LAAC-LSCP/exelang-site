@@ -1,0 +1,7 @@
+<a class="materials-item hoverable-card" href='{{ .Get "url" }}'>
+  <div class="header-container inline-svg">
+    {{ with .Get "icon" }} {{ partial (printf "icons/%s.html" .) . }} {{ end }}
+    <span> {{ .Get "title" }} </span>
+  </div>
+  <p>{{ .Get "description" }}</p>
+</a>

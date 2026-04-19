@@ -1,0 +1,3 @@
+<div class="header-with-icon">
+  {{ partial (printf "icons/%s.html" (.Get "icon")) . }} {{ .Inner| markdownify }}
+</div>

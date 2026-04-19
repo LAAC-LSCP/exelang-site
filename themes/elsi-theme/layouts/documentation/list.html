@@ -1,0 +1,24 @@
+{{ define "main" }} {{ with site.GetPage "documentation/documentation.md" }} {{ partial
+"shared/banner.html" . }}
+<section class="documentation">
+  <div class="docs-wrapper">
+    {{ $bundle := site.GetPage "documentation/bundle" }} {{ $page_links := slice }} {{ range
+    $bundle.Resources.Match "*.md" }} {{ $page_links = $page_links | append (dict "page_name"
+    .File.BaseFileName "title" .Title) }} {{ end }} {{ partial "documentation/docs-sidebar.html" (
+    dict "header" .Params.sidebar_header "page_links" $page_links ) }}
+    <div class="docs-main-content">
+      {{ range $bundle.Resources.Match "*.md" }}
+      <div
+        class="shadowed-card docs-page-container doc-page-{{ .File.BaseFileName }}"
+        style="display: none"
+      >
+        {{ .Content }}
+      </div>
+      {{ end }} {{ partial "documentation/need-help.html" ( dict "header" .Params.help_header "text"
+      .Params.help_text "primary_text" .Params.help_button_primary_text "secondary_text"
+      .Params.help_button_secondary_text "primary_href" .Params.help_button_primary_href
+      "secondary_href" .Params.help_button_secondary_href )}}
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}

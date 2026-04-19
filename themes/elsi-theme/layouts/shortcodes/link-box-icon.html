@@ -1,0 +1,4 @@
+<a href='{{ .Get "href" }}' class="link-box-icon inline-svg">
+  <span>{{ .Inner | markdownify }}</span>
+  {{ partial (printf "icons/%s.html" (.Get "icon")) . }}
+</a>

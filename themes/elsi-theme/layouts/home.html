@@ -74,7 +74,7 @@
     {{ end }}
   </div>
 </section>
-{{ end }} {{ with site.GetPage "home/resources" }}
+{{ end }} {{ with site.GetPage "home/resources.md" }}
 <section class="home-resources">
   <div class="text-container">{{ .Content }}</div>
   <div class="grid-mixin three-grid">
@@ -83,7 +83,7 @@
 </section>
 {{ end }}
 <section class="home-consortium">
-  {{ with site.GetPage "home/consortium" }}
+  {{ with site.GetPage "home/consortium.md" }}
   <div class="text-container">
     {{ .Content }}
     <a href="{{ .Params.link.url }}" class="learn-more"> {{ .Params.link.descriptive }} </a>
