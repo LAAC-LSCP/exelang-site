@@ -41,7 +41,7 @@
       font-size: 16px !important;
     }
 
-    .partner-card, .funding-projects {
+    .partner-card, .funding-projects, .other-acknowledgements-container {
       background-color: $very-light-gray;
       border-color: $gray-border;
 
@@ -55,16 +55,20 @@
     }
   }
 
-  .funding-acknowledgement > .funding-projects {
+  .funding-acknowledgement > .funding-projects, .funding-acknowledgement > .other-acknowledgements.container {
     border-radius: 14px;
     box-shadow: none;
   }
 
-  .funding-projects {
+  .funding-projects, .other-acknowledgements-container {
     padding: 24px !important;
   }
 
   .funding-projects > .funding-project:not(:last-child) {
     margin-bottom: 16px;
+  }
+
+  .other-acknowledgements-container {
+    box-shadow: none !important;
   }
 }
