@@ -24,7 +24,7 @@ subheader = 'Key collaborators contributing to the ExELang ecosystem'
 name = "Dr. Kaveri K. Sheth"
 subteam = "ELSI Team"
 description = 'ELSI team member contributing to the development and implementation of the ExELang ecosystem.'
-image = "images/people-in-an-office.jpeg"
+image = "images/people/kaveri.png"
 
     [[team_members.icon_links]]
     url = "mailto:kaveri.sheth@example.com"
@@ -38,7 +38,7 @@ image = "images/people-in-an-office.jpeg"
 name = "Loann Peurey"
 subteam = "ELSI Team"
 description = 'ELSI team member working on tool development and research applications.'
-image = "images/people-at-desk.jpeg"
+image = "images/people/loann.jpeg"
 
     [[team_members.icon_links]]
     url = "mailto:loann.peurey@example.com"
@@ -52,7 +52,7 @@ image = "images/people-at-desk.jpeg"
 name = "Alex Eguiluz"
 subteam = "ELSI Team"
 description = 'ELSI team member supporting research and technical implementation.'
-image = "images/office.jpeg"
+image = "images/people/alejandrina.png"
 
     [[team_members.icon_links]]
     url = "mailto:alex.eguiluz@example.com"
@@ -95,7 +95,7 @@ name = "Dr. Sho Tsuji"
 subteam = "Project Custodians"
 organization = "University of Tokyo"
 description = 'Leading researcher in child language development and multilingual acquisition. Specializes in early language processing and infant speech perception.'
-image = "images/people-in-an-office.jpeg"
+image = "images/people/sho.jpg"
 
     [[team_members.icon_links]]
     url = "mailto:show.tsuji@example.com"
@@ -114,7 +114,7 @@ name = "Dr. Marvin Lavechin"
 subteam = "Project Custodians"
 organization = "CNRS & ENS Paris"
 description = 'Expert in speech processing and voice activity detection. Developer of VTC2 and contributor to multiple ExELang tools.'
-image = "images/people-at-desk.jpeg"
+image = "images/people/marvin.jpg"
 
     [[team_members.icon_links]]
     url = "mailto:marvin.lavechin@example.com"
@@ -133,7 +133,7 @@ name = "Dr. Okko Räsänen"
 subteam = "Project Custodians"
 organization = "Tampere University"
 description = 'Machine learning researcher focusing on self-supervised learning for infant speech. Lead developer of BabyHubert.'
-image = "images/office.jpeg"
+image = "images/people/okko.jpeg"
 
     [[team_members.icon_links]]
     url = "mailto:okko.rasanen@example.com"
@@ -151,7 +151,7 @@ image = "images/office.jpeg"
 name = "Dr. Camila Scaff"
 subteam = "EL1000 Team"
 description = 'Researcher working on the EL1000 consortium for large-scale early language data collection and analysis.'
-image = "images/people-in-an-office.jpeg"
+image = "images/people/camila.jpeg"
 
     [[team_members.icon_links]]
     url = "mailto:camila.scaff@example.com"
@@ -165,7 +165,7 @@ image = "images/people-in-an-office.jpeg"
 name = "Dr. Joseph Coffey"
 subteam = "EL1000 Team"
 description = 'Contributing to the EL1000 initiative focused on understanding early language development at scale.'
-image = "images/people-at-desk.jpeg"
+image = "images/people/joe.jpg"
 
     [[team_members.icon_links]]
     url = "mailto:joseph.coffey@example.com"
@@ -179,7 +179,7 @@ image = "images/people-at-desk.jpeg"
 name = "Dr. Naomi Havron"
 subteam = "EL1000 Team"
 description = 'Member of the EL1000 team working on collaborative research in early language acquisition.'
-image = "images/office.jpeg"
+image = "images/people/naomi.avif"
 
     [[team_members.icon_links]]
     url = "mailto:naomi.havron@example.com"
@@ -194,7 +194,7 @@ name = "Dr. Alejandrina Cristia"
 subteam = "Collaborators"
 organization = "CNRS & ENS Paris"
 description = 'Director of the Babylab at ENS Paris. Leading expert in early language acquisition and daylong recordings. Key collaborator on the ExELang ecosystem.'
-image = "images/office.jpeg"
+image = "images/people/alejandrina.png"
 
     [[team_members.icon_links]]
     url = "mailto:alejandrina.cristia@example.com"
