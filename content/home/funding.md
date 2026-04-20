@@ -6,6 +6,9 @@ headless = true
 
 funding_title = 'Funding'
 
+other_acks_header = 'Other Acknowledgements'
+other_acks_text = 'We would like to thank Sebastien Christian and all contributors to the ExELang ecosystem'
+
 [[projects]]
 project = "ELSI V1"
 

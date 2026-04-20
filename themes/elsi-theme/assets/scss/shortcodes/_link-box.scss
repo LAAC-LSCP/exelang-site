@@ -1,0 +1,33 @@
+.link-box {
+    border: 0.1vw solid $gray-border;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+
+    .icon-container {
+        svg {
+            border-radius: 10px;
+            background-color: $light-gray;
+            padding: 14px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .link-box-header {
+        h3 {
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+    }
+
+    .link-box-icon {
+        color: $calm-blue;
+        font-weight: 500;
+    }
+}

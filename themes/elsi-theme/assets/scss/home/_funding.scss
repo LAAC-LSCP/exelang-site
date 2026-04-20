@@ -25,7 +25,7 @@
         margin-bottom: 48px;
     }
 
-    .funding-projects {
+    .funding-projects, .other-acknowledgements-container {
         background-color: white;
         max-width: 800px;
         margin: 0 auto;
@@ -40,6 +40,22 @@
             /* stylelint-enable */
         border-radius: 14px;
     }
+
+    .other-acknowledgements-container {
+        margin-top: 32px;
+    }
+
+    .other-acknowledgements {
+      h4 {
+          font-size: 20px;
+          color: $very-dark-blue;
+          margin-bottom: 16px;
+      }
+
+      span {
+          color: $gray-blue;
+      }
+    } 
 
     .funding-project {
         h4 {

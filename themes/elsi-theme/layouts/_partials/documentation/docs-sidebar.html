@@ -1,0 +1,12 @@
+<div class="docs-sidebar-container">
+  <div class="docs-sidebar tool-card shadowed-card">
+    <h3>{{ .header }}</h3>
+    <nav>
+      {{ range .page_links }}
+      <button class="docs-btn inactive-sidebar-btn" data-page="{{ .page_name }}">
+        {{ .title }}
+      </button>
+      {{ end }}
+    </nav>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+<div class="link-box">
+  {{ with .Get "icon" }}
+  <div class="icon-container">{{ partial (printf "icons/%s.html" .) . }}</div>
+  {{ end }}
+  <div class="link-box-content">{{ .Inner }}</div>
+</div>
