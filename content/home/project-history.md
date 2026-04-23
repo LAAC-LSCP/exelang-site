@@ -6,10 +6,11 @@ subtitle = 'Project History & Background'
 headless = true
 +++
 
-The ExELang (Extraction of Early Language) ecosystem emerged from the recognition that child language researchers needed better, more accessible tools for analyzing daylong audio recordings and understanding early language development. What began as individual projects at various institutions has evolved into a comprehensive, integrated platform.
+The ExELang (Experience Effects in Early Language Acquisition) project grew from a fundamental question in cognitive science: to what extent does experience shape how children acquire language? Researchers recognized that answering this question required both large-scale naturalistic data and better open-source tools to analyze it — tools that could work across languages, cultures, and research settings worldwide.
 
-Starting in 2018, researchers across multiple disciplines—from developmental psychology to computational linguistics—began collaborating to address common challenges in processing and analyzing naturalistic language data from children. The project gained momentum through partnerships with leading research institutions and funding from international scientific organizations.
+The project was led by Alex Cristia, Research Director at CNRS and head of the Language Acquisition Across Cultures team (LSCP, ENS/EHESS/CNRS, PSL University, Paris), and was funded by a European Research Council (ERC) Consolidator Grant. It builds on existing corpora of child-centered daylong recordings — audio collected via a wearable recorder carried by a young child throughout a normal day — spanning over 40 languages and communities across continents.
 
-Today, the ExELang ecosystem includes four major tools (ELSI, VTC2, BabyHubert, and ChildProject), serves researchers in over 30 countries, and continues to grow through community contributions and active development. Our commitment to open science, ethical research practices, and accessible documentation has made these tools the foundation for groundbreaking discoveries in early language acquisition.
+Today, the ExELang ecosystem includes tools such as the Voice Type Classifier (VTC), BabyHuBERT, ChildProject, and ELSI, supporting researchers in processing and analyzing thousands of hours of naturalistic child speech. These open-source tools handle everything from speaker segmentation and voice classification to dataset management and annotation standardization. Our commitment to open science, ethical research practices, and accessible documentation makes these tools a growing foundation for cross-cultural discoveries in early language acquisition.
 
 The project's success is built on collaboration, transparency, and a shared vision: to make sophisticated language analysis tools available to researchers worldwide, regardless of their technical background or institutional resources.
+
