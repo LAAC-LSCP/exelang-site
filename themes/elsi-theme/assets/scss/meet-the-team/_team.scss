@@ -12,10 +12,28 @@
         /* stylelint-enable */
     }
   }
+}
 
-  .core-team {
-    .info-box {
-      background-color: $very-light-gray;
-    }
+.meet-the-team-core-team {
+  .info-box {
+    background-color: $elsi-light-blue;
+  }
+}
+
+.meet-the-team-custodians {
+  .info-box {
+    background-color: $elsi-light-green;
+  }
+}
+
+.meet-the-team-el1000 {
+  .info-box {
+    background-color: $elsi-light-purple;
+  }
+}
+
+.meet-the-team-collaborators {
+  .info-box {
+    background-color: $elsi-light-green;
   }
 }

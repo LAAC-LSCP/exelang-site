@@ -13,4 +13,3 @@ The project was led by Alex Cristia, Research Director at CNRS and head of the L
 Today, the ExELang ecosystem includes tools such as the Voice Type Classifier (VTC), BabyHuBERT, ChildProject, and ELSI, supporting researchers in processing and analyzing thousands of hours of naturalistic child speech. These open-source tools handle everything from speaker segmentation and voice classification to dataset management and annotation standardization. Our commitment to open science, ethical research practices, and accessible documentation makes these tools a growing foundation for cross-cultural discoveries in early language acquisition.
 
 The project's success is built on collaboration, transparency, and a shared vision: to make sophisticated language analysis tools available to researchers worldwide, regardless of their technical background or institutional resources.
-
