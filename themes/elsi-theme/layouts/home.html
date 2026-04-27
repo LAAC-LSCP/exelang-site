@@ -8,13 +8,7 @@
         class="inline-svg"
         href="{{ (site.GetPage `section` `tools`).RelPermalink }}"
       >
-        {{ .Params.tool_tag }} {{ partial "icons/right-arrow.html" . }}
-      </a>
-      <a
-        class="big-button big-button-secondary"
-        href="{{ (site.GetPage `section` `docs`).RelPermalink }}"
-      >
-        {{ .Params.documentation_tag }}
+        {{ .Params.explore_tag }} {{ partial "icons/right-arrow.html" . }}
       </a>
     </div>
   </div>

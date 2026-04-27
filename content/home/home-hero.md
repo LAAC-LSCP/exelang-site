@@ -4,8 +4,7 @@ draft = false
 title = 'Home Hero'
 headless = true
 
-tool_tag = "Explore tools"
-documentation_tag = "View documentation"
+explore_tag = "Ready to explore?"
 +++
 
 # ExELang Ecosystem
