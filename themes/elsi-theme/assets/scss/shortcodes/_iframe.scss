@@ -1,0 +1,35 @@
+.iframe-embed {
+    border: 1px solid $gray-border;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: $card-box-shadow-dark;
+
+    iframe {
+        display: block;
+        width: 100%;
+        border: none;
+    }
+
+    .iframe-footer {
+        border-top: 1px solid $gray-border;
+        padding: 10px 16px;
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            line-height: 20px;
+            color: $gray-blue;
+
+            &:hover {
+                color: $calm-blue;
+            }
+
+            svg {
+                height: 16px;
+                width: 16px;
+            }
+        }
+    }
+}

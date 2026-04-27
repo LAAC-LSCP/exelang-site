@@ -1,4 +1,6 @@
 # Ignore all SCSS files from Prettier formatting
 **/*.scss
+# Ignore Hugo content files (shortcode syntax is incompatible with Prettier)
+content/**/*.md
 # Ignore built/bundled files
 themes/elsi-theme/assets/js/app.js

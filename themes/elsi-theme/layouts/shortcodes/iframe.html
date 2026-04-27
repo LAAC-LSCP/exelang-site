@@ -1,0 +1,14 @@
+<div class="iframe-embed">
+  <iframe
+    src='{{ .Get "src" }}'
+    title='{{ with .Get "title" }}{{ . }}{{ else }}Embedded content{{ end }}'
+    style='height: {{ with .Get "height" }}{{ . }}px{{ else }}480px{{ end }}'
+    allowfullscreen
+  ></iframe>
+  <div class="iframe-footer">
+    <a href='{{ .Get "src" }}' target="_blank" rel="noopener noreferrer" class="inline-svg">
+      {{ partial "icons/external-link.html" . }}
+      <span>Open in full page</span>
+    </a>
+  </div>
+</div>
