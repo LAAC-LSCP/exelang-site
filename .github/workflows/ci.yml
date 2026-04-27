@@ -18,9 +18,12 @@ jobs:
       - run: npm install
       - run: npm run lint
       - run: npm run check-format
+      - name: Read Hugo version
+        id: hugo-version
+        run: echo "version=$(cat .hugo-version)" >> $GITHUB_OUTPUT
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'from-file'
+          hugo-version: ${{ steps.hugo-version.outputs.version }}
           extended: true
       - run: npm run build
