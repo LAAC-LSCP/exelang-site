@@ -9,6 +9,13 @@
     font-size: 30px;
   }
 
+  .tool-card {
+    h3 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  }
+
   .info-box {
     text-align: center;
 
@@ -24,7 +31,7 @@
 
     padding: 32px;
     border-radius: 16px;
-    background-image: linear-gradient(to right, $calm-blue 0%, $calm-blue-purple 100%);
+    background-color: $elsi-dark-blue;
   }
 
   .tools-grid {
