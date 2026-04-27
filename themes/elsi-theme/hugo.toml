@@ -1,6 +1,6 @@
 baseURL = 'https://elsi-lscp.ddns.net/docs/'
 languageCode = 'en-US'
-title = 'My New Hugo Project'
+title = 'ELSI Theme'
 disableKinds = ["taxonomy"]
 
 [menus]

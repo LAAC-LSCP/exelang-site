@@ -1,5 +1,5 @@
 baseURL = 'https://elsi-lscp.ddns.net/docs/'
 languageCode = 'en-us'
-title = 'ExELang Project'
+title = 'ExELang ELSI'
 theme = 'elsi-theme'
 disableKinds = ["taxonomy"]
