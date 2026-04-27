@@ -200,8 +200,10 @@ This project uses Hugo (a static site generator), JavaScript, SCSS, and npm for 
 ### Local Development
 
 1. **Install Hugo:**
-   - Download and install Hugo from https://gohugo.io/installation/.
-   - Verify installation with `hugo --help`.
+   - This project pins the Hugo version in `.hugo-version`. Install exactly that version to match CI.
+   - If you use [mise](https://mise.jdx.dev/) or [asdf](https://asdf-vm.com/), run `mise install hugo` or `asdf install hugo` in the repo root and the correct version will be selected automatically.
+   - Otherwise, download the version specified in `.hugo-version` from https://github.com/gohugoio/hugo/releases and install it manually.
+   - Verify installation with `hugo version`.
 
 2. **Install Node.js and npm:**
    - Use Node Version Manager (nvm): https://github.com/nvm-sh/nvm
