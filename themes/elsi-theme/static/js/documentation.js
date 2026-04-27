@@ -23,7 +23,6 @@ function setActive(btn, content, allButtons, allContents) {
 document.addEventListener('DOMContentLoaded', function () {
   var buttons = document.querySelectorAll('.documentation .docs-btn');
   var contents = document.querySelectorAll('.documentation .docs-page-container');
-  let lastSelected = null;
   let currentSelected = null;
 
   // Show the first doc-content by default and set active class
@@ -35,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
   buttons.forEach(function (btn) {
     btn.addEventListener('click', function () {
       var pageName = btn.dataset.page;
-      lastSelected = currentSelected;
       currentSelected = document.querySelector('.doc-page-' + pageName);
       setActive(btn, currentSelected, buttons, contents);
     });
