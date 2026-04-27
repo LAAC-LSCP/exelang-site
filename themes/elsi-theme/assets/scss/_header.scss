@@ -43,10 +43,14 @@ main {
   }
 
   .header-links > .link {
-    padding: 12px;
     color: $gray-blue;
     margin-right: 32px;
     font-weight: 500;
+
+    a {
+      display: block;
+      padding: 12px;
+    }
   }
 
   .header-links .active {
@@ -72,6 +76,66 @@ main {
   @media (min-width: 1280px) {
     .header-inner {
       padding: 0 32px;
+    }
+  }
+
+  .mobile-menu-btn {
+    display: none;
+
+    .icon-close {
+      display: none;
+    }
+
+    &.open .icon-menu {
+      display: none;
+    }
+
+    &.open .icon-close {
+      display: block;
+    }
+  }
+
+  /* stylelint-disable-next-line */
+  @media (max-width: 768px) {
+    .mobile-menu-btn {
+      display: flex;
+    }
+
+    .header-links {
+      display: none;
+
+      &.open {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        position: fixed;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        padding: 16px;
+        /* stylelint-disable */
+        box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.08);
+        /* stylelint-enable */
+
+        .link {
+          margin-right: 0;
+          border-radius: 8px;
+
+          &:not(.active):hover {
+            background-color: $almost-very-light-gray;
+          }
+        }
+
+        > .link:not(:last-child) {
+          margin-bottom: 8px;
+        }
+
+        .link.active {
+          border-bottom: 0;
+          background-color: $elsi-light-blue;
+        }
+      }
     }
   }
 }

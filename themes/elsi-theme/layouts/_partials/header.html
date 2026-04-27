@@ -2,6 +2,10 @@
   <nav class="header-nav">
     <div class="header-inner">
       <div class="site-title">ExELang</div>
+      <button class="mobile-menu-btn">
+        <span class="icon-menu">{{ partial "icons/menu.html" . }}</span>
+        <span class="icon-close">{{ partial "icons/close.html" . }}</span>
+      </button>
       <div class="header-links">
         {{ range site.Menus.main }}
         <div class="link{{ if eq .URL $.RelPermalink }} active{{ end }}">
