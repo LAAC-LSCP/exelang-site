@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://elsi-lscp.ddns.net/docs/'
 languageCode = 'en-US'
 title = 'My New Hugo Project'
 disableKinds = ["taxonomy"]

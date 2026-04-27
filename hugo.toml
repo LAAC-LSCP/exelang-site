@@ -1,4 +1,4 @@
-baseURL = 'https://elsi.com/'
+baseURL = 'https://elsi-lscp.ddns.net/docs/'
 languageCode = 'en-us'
 title = 'ExELang Project'
 theme = 'elsi-theme'
