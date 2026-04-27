@@ -30,3 +30,9 @@ Advanced machine learning model for infant speech analysis.
         href="https://www.google.com/"
     >}}
 {{< /link-buttons >}}
+
+{{< iframe
+    src="https://arxaqapi.github.io/LAAC-LSCP-documentation/babyhubert/"
+    title="BabyHubert Docs"
+    height="480"
+>}}

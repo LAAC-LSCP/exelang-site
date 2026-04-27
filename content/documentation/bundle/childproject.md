@@ -30,3 +30,9 @@ Project management and data organization for child language research.
         href="https://www.google.com/"
     >}}
 {{< /link-buttons >}}
+
+{{< iframe
+    src="https://childproject.readthedocs.io/en/latest/modules.html"
+    title="ChildProject Docs"
+    height="480"
+>}}
