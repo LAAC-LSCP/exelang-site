@@ -1,7 +1,7 @@
 <div class="info-box shadowed-card">
   {{ with .image }}
   <div class="image-container">
-    <img src="/{{ . }}" />
+    <img src="{{ . | relURL }}" />
   </div>
   {{ end }}
   <div class="text-container">
