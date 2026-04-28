@@ -2,12 +2,12 @@
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
   <head>
     {{ partial "head.html" . }}
-    <script src="/js/documentation.js"></script>
+    <script src="{{ `js/documentation.js` | relURL }}"></script>
   </head>
   <body>
     <header>{{ partial "header.html" . }}</header>
     <main>{{ block "main" . }}{{ end }}</main>
     <footer>{{ partial "footer.html" . }}</footer>
-    <script src="/js/navbar.js"></script>
+    <script src="{{ `js/navbar.js` | relURL }}"></script>
   </body>
 </html>
