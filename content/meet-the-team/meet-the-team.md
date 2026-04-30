@@ -65,7 +65,7 @@ image = "images/people/alejandrina.png"
 [[team_members]]
 name = "May Abdou"
 subteam = "ELSI Team"
-description = 'ELSI team member contributing to research and development.'
+description = 'ELSI team member contributing to research and development. PhD Student'
 image = "images/office.jpeg"
 
     [[team_members.icon_links]]
