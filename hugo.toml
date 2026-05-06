@@ -1,4 +1,5 @@
 baseURL = 'https://elsi-lscp.ddns.net/docs/'
+relativeURLs = true
 languageCode = 'en-us'
 title = 'ExELang ELSI'
 theme = 'elsi-theme'
