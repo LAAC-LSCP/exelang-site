@@ -1,4 +1,4 @@
-baseURL = 'https://elsi-lscp.ddns.net/docs/'
+baseURL = 'https://elsi-lscp.ddns.net'
 relativeURLs = true
 languageCode = 'en-US'
 title = 'ELSI Theme'
