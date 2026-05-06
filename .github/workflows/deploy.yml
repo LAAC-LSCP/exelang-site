@@ -18,10 +18,9 @@ jobs:
           echo "TOKEN=$TOKEN" >> $GITHUB_ENV
 
       - name: publish
-        run: curl -X POST --url "$UPLOAD_TARGET" --header "Authorization: Bearer $TOKEN"
+        run: 'curl -X POST --url "$UPLOAD_TARGET" --header "Authorization: Bearer $TOKEN"'
     env:
       UPLOAD_TARGET: ${{ vars.UPLOAD_TARGET }}
       LOGIN_TARGET: ${{ vars.LOGIN_TARGET }}
       CLIENT_DEPLOY: ${{ vars.CLIENT_DEPLOY }}
       CLIENT_SECRET: ${{ secrets.API_DEPLOY_ELSI }}
-      
