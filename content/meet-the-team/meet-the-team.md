@@ -45,7 +45,7 @@ image = "images/people/loann.jpeg"
     icon = "mail"
 
     [[team_members.icon_links]]
-    url = "https://google.com"
+    url = "https://www.linkedin.com/in/loann-peurey/"
     icon = "world"
 
 [[team_members]]
