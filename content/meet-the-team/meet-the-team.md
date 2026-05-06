@@ -41,7 +41,7 @@ description = 'ELSI team member working on tool development and research applica
 image = "images/people/loann.jpeg"
 
     [[team_members.icon_links]]
-    url = "mailto:loann.peurey@example.com"
+    url = "mailto:loannpeurey@gmail.com"
     icon = "mail"
 
     [[team_members.icon_links]]
