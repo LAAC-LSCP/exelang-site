@@ -13,8 +13,8 @@ jobs:
     steps:
       - name: Get token
         run: |
-          RESPONSE=$(curl -X POST --url "$LOGIN_TARGET" --header 'Content-Type: application/json' --data {\"grant_type\":\"client_credentials\", \"client_id\":\"$CLIENT_DEPLOY\",  \"$CLIENT_SECRET\"})
-          TOKEN=$(echo "$RESPONSE" | jq -r '.token')
+          RESPONSE=$(curl -X POST --url "$LOGIN_TARGET" --header "Content-Type: application/json" --data "{\"grant_type\":\"client_credentials\", \"client_id\":\"$CLIENT_DEPLOY\",  \"client_secret\":\"$CLIENT_SECRET\"}")
+          TOKEN=$(echo "$RESPONSE" | jq -r '.access_token')
           echo "TOKEN=$TOKEN" >> $GITHUB_ENV
 
       - name: publish
