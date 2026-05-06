@@ -11,28 +11,17 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - name: Read Hugo version
-        id: hugo-version
-        run: echo "version=$(cat .hugo-version)" >> $GITHUB_OUTPUT
-      - name: Install Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: ${{ steps.hugo-version.outputs.version }}
-          extended: true
-      - run: npm install
-      - run: npm run build
-      - name: Set up SSH key
+      - name: Get token
         run: |
-          mkdir -p ~/.ssh
-          echo "$DEPLOYMENT_KEY_CONTENT" > ~/.ssh/$DEPLOYMENT_KEY
-          chmod 600 ~/.ssh/$DEPLOYMENT_KEY
-      - name: Deploy via rsync
-        run: npm run upload
+          RESPONSE=$(curl -X POST --url "$LOGIN_TARGET" --header 'Content-Type: application/json' --data {\"grant_type\":\"client_credentials\", \"client_id\":\"$CLIENT_DEPLOY\",  \"$CLIENT_SECRET\"})
+          TOKEN=$(echo "$RESPONSE" | jq -r '.token')
+          echo "TOKEN=$TOKEN" >> $GITHUB_ENV
+
+      - name: publish
+        run: curl -X POST --url "$UPLOAD_TARGET" --header "Authorization: Bearer $TOKEN"
     env:
       UPLOAD_TARGET: ${{ vars.UPLOAD_TARGET }}
-      DEPLOYMENT_KEY_CONTENT: ${{ secrets.DEPLOYMENT_KEY_CONTENT }}
-      DEPLOYMENT_KEY: elsi_site_deploy_key
+      LOGIN_TARGET: ${{ vars.LOGIN_TARGET }}
+      CLIENT_DEPLOY: ${{ vars.CLIENT_DEPLOY }}
+      CLIENT_SECRET: ${{ secrets.API_DEPLOY_ELSI }}
+      
