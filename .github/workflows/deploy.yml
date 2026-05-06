@@ -18,7 +18,16 @@ jobs:
           echo "TOKEN=$TOKEN" >> $GITHUB_ENV
 
       - name: publish
-        run: 'curl -X POST --url "$UPLOAD_TARGET" --header "Authorization: Bearer $TOKEN"'
+        run: |
+          STATUS=$(curl -X POST -s -o /tmp/response.json -w "%{http_code}" --header "Authorization: Bearer $TOKEN" $UPLOAD_TARGET)
+
+          if [ "$STATUS" -ne 200 ]; then
+            echo "Request failed with status $STATUS"
+            cat /tmp/response.json
+            exit 1
+          fi
+
+          echo "Request succeeded"
     env:
       UPLOAD_TARGET: ${{ vars.UPLOAD_TARGET }}
       LOGIN_TARGET: ${{ vars.LOGIN_TARGET }}
