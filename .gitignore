@@ -1,3 +1,5 @@
 public
 resources/_gen/**
 node_modules/**
+themes/elsi-theme/resources
+themes/elsi-theme/.hugo_build.lock
