@@ -31,4 +31,4 @@ hyperlink_url = "https://childproject.readthedocs.io/en/latest/"
 
 ### Working with multilingual data?
 
-Our tools support multiple languages and MLM (multilingual) profiles
+Our tools empower research in multiple languages and across diverse communities! 

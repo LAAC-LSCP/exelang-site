@@ -7,8 +7,6 @@ headless = true
 explore_tag = "Ready to explore?"
 +++
 
-# ExELang Ecosystem
+# ELSI - ExELang Legacy Support Interface 
 
-Centralizing resources for child language research and analysis
-
-Access all ExELang tools, documentation, and resources in one place. Designed for researchers, students, educators, and labs working with child language recordings and multilingual data.
+Access all tools, documentation, and resources in one place. Designed for researchers, students, educators, and labs working with child language and multilingual data.
