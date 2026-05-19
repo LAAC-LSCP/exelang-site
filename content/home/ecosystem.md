@@ -9,4 +9,4 @@ headless = true
 
 A comprehensive suite of tools for child language research
 
-![Ecosystem](/images/ecosystem.png)
+![Ecosystem](/images/ELSIecosystem.jpeg)

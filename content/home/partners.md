@@ -7,20 +7,15 @@ headless = true
 [[partners]]
 name = "ENS Paris"
 location = "France"
-
-[[partners]]
-name = "University of Tokyo"
-location = "Japan"
+url = "https://www.ens.psl.eu"
 
 [[partners]]
 name = "Tampere University"
 location = "Finland"
+url = "https://www.tuni.fi"
 
 [[partners]]
 name = "CNRS"
 location = "France"
+url = "https://www.cnrs.fr"
 +++
-
-## Partner Institutions
-
-Collaborating organizations supporting the ExELang ecosystem
