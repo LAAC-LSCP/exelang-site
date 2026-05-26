@@ -1,53 +1,49 @@
 [
   {
-    "title": "ExELang: Building an Ecosystem for Child Language Research",
-    "association": "Interspeech 2025",
+    "title": "LFRAZ – Longform Recordings from A to Z",
     "infos": {
-      "location": "Dublin, Ireland",
-      "date": "September 2025"
+      "location": "École Normale Supérieure, Paris, France",
+      "date": "16–19 June 2025"
     },
-    "presentation_type": "Keynote",
+    "event_type": "Summer School",
+    "status": "past",
+    "objective": "The summer school is designed to train researchers in the collection, analysis, and interpretation of data from long-form (also called daylong) recordings (LFRs). LFRs are increasingly used, including to document language input and outcomes in under-described populations, and to assess potential effects of early childhood interventions. Attendees gain practical skills to integrate long-form recordings into their research, from data collection to modeling.",
+    "program": [
+      "Day 1: General Introduction & Data Collection Setup",
+      "Day 2: Data Management, Law and Ethics",
+      "Day 3: Human Annotation and Quality Control",
+      "Day 4: Automated Analysis and Software — using open-source tools and hardware for analyzing speech data in culturally diverse contexts",
+      "Networking opportunities across linguistics, anthropology, economics, and developmental science"
+    ],
     "links": [
       {
-        "text": "View Materials",
-        "url": "https://www.google.com/",
+        "text": "View Event",
+        "url": "https://lfraz2025.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en",
         "icon": "right-arrow"
       }
-    ],
-    "bibtex": "Tsuji, S., Lavechin, M., & Räsänen, O. (2025, September). ExELang: Building an Ecosystem for Child Language Research. Keynote presented at Interspeech 2025, Dublin, Ireland."
+    ]
   },
   {
-    "title": "Tools for Analyzing Daylong Audio Recordings",
-    "association": "International Congress of Infant Studies",
+    "title": "LFRIS – Longform Recordings Interdisciplinary Summit",
     "infos": {
-      "location": "Edinburgh, UK",
-      "date": "July 2025"
+      "location": "École Normale Supérieure, Paris, France",
+      "date": "19–20 June 2025"
     },
-    "presentation_type": "Workshop",
+    "event_type": "Summit",
+    "status": "past",
+    "objective": "The goal of this interdisciplinary summit is to provide an overview of cutting-edge LFR-based research spanning at least four disciplines (developmental psychology, linguistics, anthropology, and economics/global health), through three organized symposia, a round table, conference breakouts, and ample networking opportunities. Attendees may also present their own LFR-based work through posters displayed throughout the conference.",
+    "program": [
+      "Symposium: \"Examining cultural differences in the early language environments of young children\" (Marisa Casillas, Margaret Cychosz, Camila Scaff)",
+      "Symposium: \"Developmental language structure and typology\" (Melanie Soderstrom, Linda Polka, Kai Jia Tey)",
+      "Symposium: \"Social and structural contributors to individual differences in language development\" (Naja Ferjan Ramírez, Sarah Lloyd-Fox, Joseph R. Coffey)",
+      "Round-table discussion: \"Opportunities and challenges of LFR for a theoretically-informed study of child language development\", led by Sho Tsuji"
+    ],
     "links": [
       {
-        "text": "View Materials",
-        "url": "https://www.google.com/",
+        "text": "View Event",
+        "url": "https://lfris2025.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en",
         "icon": "right-arrow"
       }
-    ],
-    "bibtex": "Lavechin, M., Cristia, A., & Dupoux, E. (2025, July). Tools for Analyzing Daylong Audio Recordings. Workshop presented at the International Congress of Infant Studies, Edinburgh, UK."
-  },
-  {
-    "title": "Machine Learning for Child Language Analysis",
-    "association": "ACL Workshop on Child Language",
-    "infos": {
-      "location": "Virtual",
-      "date": "August 2024"
-    },
-    "presentation_type": "Tutorial",
-    "links": [
-      {
-        "text": "View Materials",
-        "url": "https://www.google.com/",
-        "icon": "right-arrow"
-      }
-    ],
-    "bibtex": "Räsänen, O., & Tsuji, S. (2024, August). Machine Learning for Child Language Analysis. Tutorial presented at the ACL Workshop on Child Language, Virtual."
+    ]
   }
 ]
