@@ -22,8 +22,8 @@ subheader = 'Key advisors contributing their expertise to the ExELang ecosystem'
 
 [[team_members]]
 name = "Dr. Kaveri K. Sheth"
-subteam = "CEO"
-organization = "École Normale Supérieure, PSL/EHESS/CNRS, Paris, France"
+subteam = "ELSI Team"
+position = "CEO"
 description = 'Leads ELSI team and funding exploration.'
 image = "images/people/kaveri.png"
 
@@ -37,8 +37,8 @@ image = "images/people/kaveri.png"
 
 [[team_members]]
 name = "Loann Peurey"
-subteam = "CTO"
-organization = "École Normale Supérieure, PSL/EHESS/CNRS, Paris, France"
+subteam = "ELSI Team"
+position = "CTO"
 description = 'Technical lead in charge of technical aspects and feasibility'
 image = "images/people/loann.jpeg"
 
@@ -52,8 +52,8 @@ image = "images/people/loann.jpeg"
 
 [[team_members]]
 name = "Alex Eguiluz"
-subteam = "Scientific Project Manager"
-organization = "École Normale Supérieure, PSL/EHESS/CNRS, Paris, France"
+subteam = "ELSI Team"
+position = "Scientific Project Manager"
 description = 'Aids organization of the ELSI team, including structuring meetings and managing timelines.'
 image = "images/people/alejandrina.png"
 
@@ -67,8 +67,8 @@ image = "images/people/alejandrina.png"
 
 [[team_members]]
 name = "May Abdou"
-subteam = "Research & User Perspective"
-organization = "École Normale Supérieure, PSL/EHESS/CNRS, Paris, France"
+subteam = "ELSI Team"
+position = "Research & User Perspective"
 description = 'Research-driven perspective, representing the needs and constraints of ELSI users. Provides scientific input, use cases, and feedback for grant proposals.'
 image = "images/office.jpeg"
 
@@ -82,8 +82,8 @@ image = "images/office.jpeg"
 
 [[team_members]]
 name = "Alicia Horton-Mastin"
-subteam = "ExELang Project Manager"
-organization = "École Normale Supérieure, PSL/EHESS/CNRS, Paris, France"
+subteam = "ELSI Team"
+position = "ExELang Project Manager"
 description = 'Alignment between the ELSI Team and the broader ExELang project. Ensures continuity, oversight, and coordination at the project level.'
 image = "images/office.jpeg"
 
@@ -97,8 +97,8 @@ image = "images/office.jpeg"
 
 [[team_members]]
 name = "Dr. Sho Tsuji"
-subteam = "Scientific Consultant, ELSI Custodian"
-organization = "University of Tokyo; École Normale Supérieure, PSL/EHESS/CNRS, Paris, France"
+subteam = "Project Custodians"
+position = "Scientific Consultant, ELSI Custodian"
 description = 'Researcher specializing in the social environment of language acquisition. Strategic guidance, technical directions, and key decisions related to ELSI’s evolution.'
 image = "images/people/sho.jpg"
 
@@ -112,8 +112,8 @@ image = "images/people/sho.jpg"
 
 [[team_members]]
 name = "Dr. Marvin Lavechin"
-subteam = "Scientific Consultant, ELSI Custodian"
-organization = "Laboratoire d’Information & Systèmes, Marseille, France"
+subteam = "Project Custodians"
+position = "Scientific Consultant, ELSI Custodian"
 description = 'Expert in speech processing and developer of VTC.'
 image = "images/people/marvin.jpg"
 
@@ -131,8 +131,8 @@ image = "images/people/marvin.jpg"
 
 [[team_members]]
 name = "Dr. Okko Räsänen"
-subteam = "Scientific Consultant, ELSI Custodian"
-organization = "Faculty of Information Technology & Communication Sciences, Tampere University, Finland"
+subteam = "Project Custodians"
+position = "Scientific Consultant, ELSI Custodian"
 description = 'Researcher specializing in speech technologies and the study of early language development in children with computational models and tools'
 image = "images/people/okko.jpeg"
 
@@ -146,8 +146,8 @@ image = "images/people/okko.jpeg"
 
 [[team_members]]
 name = "Dr. Camila Scaff"
-subteam = "EL1000 Consortium"
-organization = "École Normale Supérieure, PSL/EHESS/CNRS, Paris, France"
+subteam = "EL1000 Team"
+position = "EL1000 Consortium"
 image = "images/people/camila.jpeg"
 
     [[team_members.icon_links]]
@@ -160,8 +160,8 @@ image = "images/people/camila.jpeg"
 
 [[team_members]]
 name = "Dr. Joseph Coffey"
-subteam = "EL1000 Consortium"
-organization = "Language & Cognition Lab, University of Stanford, USA"
+subteam = "EL1000 Team"
+position = "EL1000 Consortium"
 image = "images/people/joe.jpg"
 
     [[team_members.icon_links]]
@@ -174,8 +174,8 @@ image = "images/people/joe.jpg"
 
 [[team_members]]
 name = "Dr. Naomi Havron"
-subteam = "EL1000 Consortium"
-organization = "Language & Development Lab, University of Haifa"
+subteam = "EL1000 Team"
+position = "EL1000 Consortium"
 image = "images/people/naomi.avif"
 
     [[team_members.icon_links]]
@@ -188,8 +188,8 @@ image = "images/people/naomi.avif"
 
 [[team_members]]
 name = "Dr. Alejandrina Cristia"
-subteam = "Advisory Board"
-organization = "École Normale Supérieure, PSL/EHESS/CNRS, Paris, France"
+subteam = "Collaborators"
+position = "Advisory board"
 image = "images/people/alejandrina.png"
 
     [[team_members.icon_links]]
@@ -202,8 +202,8 @@ image = "images/people/alejandrina.png"
 
 [[team_members]]
 name = "Dr. Caroline Rowland"
-subteam = "Advisory Board"
-organization = "Language Development Department at the Max Planck Institute for Psycholinguistics, Netherlands"
+subteam = "Collaborators"
+position = "Advisory board"
 image = "images/people/alejandrina.png"
 
     [[team_members.icon_links]]
@@ -216,8 +216,8 @@ image = "images/people/alejandrina.png"
 
 [[team_members]]
 name = "Dr. Sam Wass"
-subteam = "Advisory Board"
-organization = "Institute for the Sciences of Early Years, University of East London, UK"
+subteam = "Collaborators"
+position = "Advisory board"
 image = "images/people/alejandrina.png"
 
     [[team_members.icon_links]]
@@ -230,8 +230,8 @@ image = "images/people/alejandrina.png"
 
 [[team_members]]
 name = "Dr. Hana d'Souza"
-subteam = "Advisory Board"
-organization = "School of Psychology, Cardiff University, UK"
+subteam = "Collaborators"
+position = "Advisory board"
 image = "images/people/alejandrina.png"
 
     [[team_members.icon_links]]
@@ -244,8 +244,8 @@ image = "images/people/alejandrina.png"
 
 [[team_members]]
 name = "Sebastien Christian"
-subteam = "Advisory Board"
-organization = "Maison des Sciences de l’Homme du Pacifique, Université de la Polynésie Française, Tahiti"
+subteam = "Collaborators"
+position = "Advisory board"
 image = "images/people/alejandrina.png"
 
     [[team_members.icon_links]]
@@ -255,7 +255,6 @@ image = "images/people/alejandrina.png"
     [[team_members.icon_links]]
     url = "https://recherche.upf.pf/fr/membre/sebastien-christian/"
     icon = "world"
-
 +++
 
 # Meet the Team
