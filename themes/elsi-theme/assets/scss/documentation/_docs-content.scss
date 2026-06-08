@@ -1,5 +1,7 @@
 .docs-page-container {
     align-self: flex-start;
+    scroll-margin-top: 100px;
+    display: none;
 
     > h2 {
         font-size: 30px;
@@ -20,4 +22,8 @@
     > :last-child {
         margin-bottom: 0;
     }
+}
+
+.docs-page-container:target {
+    display: block;
 }

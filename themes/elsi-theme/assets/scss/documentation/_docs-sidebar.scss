@@ -19,7 +19,7 @@
         flex-direction: column;
     }
 
-    button {
+    a {
         padding: 8px 12px;
         color: $gray-blue;
         font-size: 16px;
@@ -28,7 +28,7 @@
         border-radius: 10px;
     }
 
-    nav > button:not(:last-child) {
+    nav > a:not(:last-child) {
         margin-bottom: 4px;
     }
 
