@@ -17,23 +17,9 @@ VTC2 helps you identify and classify different voice types in recordings.
 
 {{< link-buttons >}}
 {{< link-button
-        title="VTC2 Quick Start"
-        left_icon="book"
-        right_icon="download"
-        href="https://www.google.com/"
-        type="download"
-    >}}
-{{< link-button
-        title="API Reference"
-        left_icon="paper-with-dog-ear"
-        right_icon="download"
-        href="https://www.google.com/"
-        type="download"
-    >}}
-{{< link-button
         title="View on GitHub"
         left_icon="github"
-        href="https://www.google.com/"
+        href="https://github.com/LAAC-LSCP/vtc"
     >}}
 {{< /link-buttons >}}
 

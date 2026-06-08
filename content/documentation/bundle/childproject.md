@@ -11,23 +11,14 @@ Project management and data organization for child language research.
 
 {{< link-buttons >}}
 {{< link-button
-        title="ChildProject Guide"
-        left_icon="book"
-        right_icon="download"
-        href="https://www.google.com/"
-        type="download"
-    >}}
-{{< link-button
-        title="Best Practices"
-        left_icon="paper-with-dog-ear"
-        right_icon="download"
-        href="https://www.google.com/"
-        type="download"
+        title="Watch the introduction"
+        left_icon="camera"
+        href="https://www.youtube.com/watch?v=8SiSi69lm9c"
     >}}
 {{< link-button
         title="View on GitHub"
         left_icon="github"
-        href="https://www.google.com/"
+        href="https://github.com/LAAC-LSCP/ChildProject"
     >}}
 {{< /link-buttons >}}
 

@@ -51,7 +51,7 @@ description = "Interested in contributing to the ExELang ecosystem or collaborat
 image = "images/abstract-green-purple.jpeg"
 [info_boxes.hyperlink]
 text = "Get in Touch"
-url = "/collaborate"
+url = "mailto:laac.lscp@gmail.com"
 icon = "right-arrow"
 +++
 

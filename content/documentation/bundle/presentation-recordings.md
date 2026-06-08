@@ -16,7 +16,7 @@ Seminars, tutorials, and online workshops.
 
 Overview of the ExELang ecosystem and how to get started
 {{< /link-box-header >}}
-{{< link-box-icon href="https://www.google.com/" icon="right-arrow" >}}
+{{< link-box-icon href="https://sdrive.cnrs.fr/s/QGtMqG4gDmZgAPz" icon="right-arrow" >}}
 Watch Recording
 {{< /link-box-icon >}}
 {{< /link-box >}}
