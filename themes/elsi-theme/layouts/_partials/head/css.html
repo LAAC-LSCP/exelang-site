@@ -9,3 +9,5 @@ hugo.IsDevelopment }}
   crossorigin="anonymous"
 />
 {{- end }} {{- end }}
+{{ $css := resources.Get "css/style.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
