@@ -7,7 +7,7 @@ headless = true
 funding_title = 'Funding'
 
 other_acks_header = 'Other Acknowledgements'
-other_acks_text = 'We would like to thank Sebastien Christian and all contributors to the ExELang ecosystem'
+other_acks_text = 'We would like to thank our advisory board (Sebastien Christian, Sam Wass, Alejandrina Cristia, Sho Tsuji,Caroline Rowland, and Hana d'Souza) for their contributions."
 
 [[projects]]
 project = "ELSI V1"
