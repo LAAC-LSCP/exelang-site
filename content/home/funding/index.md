@@ -14,12 +14,18 @@ project = "ELSI V1"
 
     [[projects.funding_bodies]]
     name = "Action financée par la Région Île-de-France"
+    logo = "Logo-RIDF-small.png"
+    link = "https://www.iledefrance.fr/"
 
     [[projects.funding_bodies]]
     name = "Convention MaxPlanck / C.Rowland"
+    logo = "Logo_gruen_de_eps.png"
+    link = "https://www.mpg.de/de"
 
     [[projects.funding_bodies]]
     name = "Facebook META"
+    logo = "Meta_lockup_positive primary_RGB.svg"
+    link = "https://research.facebook.com/"
 
 [[projects]]
 project = "ELSI V2"
