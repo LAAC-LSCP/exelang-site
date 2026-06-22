@@ -1,4 +1,5 @@
 {{ with site.GetPage "home/funding" }}
+{{ $page := . }}
 <div class="funding-acknowledgement">
   <div class="text-box">{{ .Content }}</div>
   <div class="funding-projects">
@@ -8,7 +9,13 @@
       <h4>{{ .project }}</h4>
       <div class="funding-bodies">
         {{ $bodies := .funding_bodies }} {{ range $i, $body := $bodies }}
+        <a href="{{ $body.link }}">
         <span>{{ $body.name }}</span>
+        {{ if $body.logo }}
+        {{ with $page.Resources.Get $body.logo }}
+        <img class="funding-logos" src="{{ .RelPermalink }}"/>
+        {{ end }} {{ end }}
+        </a>
         {{ if lt $i (sub (len $bodies) 1) }}
         <span class="info-separator">•</span>
         {{ end }} {{ end }}
