@@ -5,7 +5,7 @@ title = 'Ethics & Data Protection'
 headless = true
 
 banner_image = "images/ethics-banner.jpeg"
-descriptive = "We are committed to ethical research practices and data protection principles. All our tools are designed with privacy and security in mind."
+descriptive = "The ExELang project benefited from experts who advised us on ethical best practices and legal regulation. You can read some of these reports here."
 
 [[bullets]]
 title = "Ethical Considerations"

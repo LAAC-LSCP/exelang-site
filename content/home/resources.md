@@ -7,7 +7,7 @@ headless = true
 [[archives]]
 title = "HomeBank"
 link = "https://talkbank.org/homebank/"
-description = "Repository for daylong audio recordings of children's language environments"
+description = "Repository for daylong audio recordings of children’s language environments"
 icon = "database"
 
 [[archives]]
@@ -25,4 +25,4 @@ icon = "database"
 
 ## Scientific Archives & Resources
 
-Access data from leading research repositories
+Our work benefits from the existence of leading research repositories, which we acknowledge here. 

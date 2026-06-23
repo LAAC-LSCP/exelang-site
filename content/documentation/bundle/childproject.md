@@ -1,7 +1,7 @@
 +++
 date = '2026-04-03T00:48:57+02:00'
 draft = false
-title = 'Childproject'
+title = 'ChildProject'
 headless = true
 +++
 
@@ -9,6 +9,7 @@ headless = true
 
 Project management and data organization for child language research.
 
+<<<<<<< Updated upstream
 {{< link-buttons >}}
 {{< link-button
         title="Watch the introduction"
@@ -22,6 +23,8 @@ Project management and data organization for child language research.
     >}}
 {{< /link-buttons >}}
 
+=======
+>>>>>>> Stashed changes
 {{< iframe
     src="https://childproject.readthedocs.io/en/latest/modules.html"
     title="ChildProject Docs"
