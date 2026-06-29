@@ -7,6 +7,6 @@ headless = true
 explore_tag = "Ready to explore?"
 +++
 
-# ELSI - ExELang Legacy Support Interface 
+# ExELang Legacy
 
-Access all tools, documentation, and resources in one place. Designed for researchers, students, educators, and labs working with child language and multilingual data.
+The Experience Effects in Early Language Acquisition (ExELang) project was funded by the ERC (2021-2026). ExELang brought together an interdisciplinary team of researchers, engineers, students, and international collaborators working across language acquisition, machine learning, data management, ethics, and open science. This website provides an entry point to the data and tools we jointly developed for processing long-form child-centered recordings.

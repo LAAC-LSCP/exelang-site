@@ -6,7 +6,7 @@ headless = true
 
 [[tools]]
 title = "ELSI"
-description = "Analyze child language recordings with comprehensive documentation and guides"
+description = "Web-based platform to analyze child language recordings"
 hyperlink_text = "Learn more"
 hyperlink_url = "/documentation/#elsi"
 
@@ -24,11 +24,7 @@ hyperlink_url = "/documentation/#babyhubert"
 
 [[tools]]
 title = "ChildProject"
-description = "Project management and data organization tools for child language research"
+description = "Python package for  dataset organization"
 hyperlink_text = "Learn more"
 hyperlink_url = "documentation/#childproject"
 +++
-
-### Working with multilingual data?
-
-Our tools empower research in multiple languages and across diverse communities! 
