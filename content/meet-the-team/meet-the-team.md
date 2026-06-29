@@ -16,10 +16,6 @@ subheader = 'Project custodians responsible for maintaining and supporting the E
 header = 'EL1000 Consortium'
 subheader = 'Researchers working on the EL1000 consortium for large-scale early language research'
 
-[collaborators_headers]
-header = 'Advisory Board'
-subheader = 'Key advisors contributing their expertise to the ExELang ecosystem'
-
 [[team_members]]
 name = "Dr. Kaveri K. Sheth"
 subteam = "ELSI Team"
@@ -184,76 +180,6 @@ image = "images/people/naomi.avif"
 
     [[team_members.icon_links]]
     url = "https://sites.google.com/hevra.haifa.ac.il/thelanguagedevelopmentlab/home?authuser=2"
-    icon = "world"
-
-[[team_members]]
-name = "Dr. Alejandrina Cristia"
-subteam = "Collaborators"
-position = "Advisory board"
-image = "images/people/alejandrina.png"
-
-    [[team_members.icon_links]]
-    url = "mailto:alejandrina.cristia@ens.psl.eu"
-    icon = "mail"
-
-    [[team_members.icon_links]]
-    url = "https://sites.google.com/site/acrsta/"
-    icon = "world"
-
-[[team_members]]
-name = "Dr. Caroline Rowland"
-subteam = "Collaborators"
-position = "Advisory board"
-image = "images/people/alejandrina.png"
-
-    [[team_members.icon_links]]
-    url = "mailto:caroline.rowland@mpi.nl"
-    icon = "mail"
-
-    [[team_members.icon_links]]
-    url = "https://www.mpi.nl/people/rowland-caroline"
-    icon = "world"
-
-[[team_members]]
-name = "Dr. Sam Wass"
-subteam = "Collaborators"
-position = "Advisory board"
-image = "images/people/alejandrina.png"
-
-    [[team_members.icon_links]]
-    url = "mailto:s.v.wass@uel.ac.uk"
-    icon = "mail"
-
-    [[team_members.icon_links]]
-    url = "https://www.profsamwass.com"
-    icon = "world"
-
-[[team_members]]
-name = "Dr. Hana d'Souza"
-subteam = "Collaborators"
-position = "Advisory board"
-image = "images/people/alejandrina.png"
-
-    [[team_members.icon_links]]
-    url = "mailto:DSouzaH@cardiff.ac.uk"
-    icon = "mail"
-
-    [[team_members.icon_links]]
-    url = "https://profiles.cardiff.ac.uk/staff/dsouzah"
-    icon = "world"
-
-[[team_members]]
-name = "Sebastien Christian"
-subteam = "Collaborators"
-position = "Advisory board"
-image = "images/people/alejandrina.png"
-
-    [[team_members.icon_links]]
-    url = "mailto:sebastien.christian@doctorant.upf.pf"
-    icon = "mail"
-
-    [[team_members.icon_links]]
-    url = "https://recherche.upf.pf/fr/membre/sebastien-christian/"
     icon = "world"
 +++
 

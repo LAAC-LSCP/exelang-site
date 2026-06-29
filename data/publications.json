@@ -20,40 +20,6 @@
     "bibtex": "@article{tey2026canonical,\n  title={The Development of Canonical Proportion as a Function of Community, Multilingualism, and Target Language's Syllable Complexity},\n  author={Tey, Kai Jia and Walker, Sarah and Seidl, Amanda and Cristia, Alejandrina},\n  journal={Journal of Child Language},\n  year={2026}\n}\n"
   },
   {
-    "title": "Simulating Early Phonetic and Word Learning Without Linguistic Categories",
-    "authors": "Lavechin, M., de Seyssel, M., Titeux, H., Wisniewski, G., Bredin, H., Cristia, A., Dupoux, E.",
-    "infos": {
-      "journal": "Developmental Science",
-      "year": "2025",
-      "doi": "10.1111/desc.13606"
-    },
-    "links": [
-      {
-        "text": "View Publication",
-        "url": "https://drive.google.com/file/d/13AB8ZXWhqFhngSrv-YB4AJm6gMzhr1V0/view",
-        "icon": "external-link"
-      }
-    ],
-    "bibtex": "@article{lavechin2025simulating,\n  title={Simulating Early Phonetic and Word Learning Without Linguistic Categories},\n  author={Lavechin, Marvin and de Seyssel, Maureen and Titeux, Hadrien and\n          Wisniewski, Guillaume and Bredin, Herve and Cristia, Alejandrina\n          and Dupoux, Emmanuel},\n  journal={Developmental Science},\n  volume={28},\n  number={2},\n  pages={e13606},\n  year={2025},\n  doi={10.1111/desc.13606}\n}\n"
-  },
-  {
-    "title": "Modeling Early Phonetic Acquisition from Child-Centered Audio Data",
-    "authors": "Lavechin, M., de Seyssel, M., Metais, M., Metze, F., Mohamed, A., Bredin, H., Dupoux, E., Cristia, A.",
-    "infos": {
-      "journal": "Cognition",
-      "year": "2024",
-      "doi": "10.1016/j.cognition.2024.105734"
-    },
-    "links": [
-      {
-        "text": "View Publication",
-        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0010027724000209",
-        "icon": "external-link"
-      }
-    ],
-    "bibtex": "@article{lavechin2024modeling,\n  title={Modeling Early Phonetic Acquisition from Child-Centered Audio Data},\n  author={Lavechin, Marvin and de Seyssel, Maureen and Metais, Marianne and\n          Metze, Florian and Mohamed, Abdelrahman and Bredin, Herve and\n          Dupoux, Emmanuel and Cristia, Alejandrina},\n  journal={Cognition},\n  volume={245},\n  pages={105734},\n  year={2024},\n  doi={10.1016/j.cognition.2024.105734}\n}\n"
-  },
-  {
     "title": "Long-Form Recordings in Low- and Middle-Income Countries: Recommendations to Achieve Respectful Research",
     "authors": "Leon, M., Meera, S.S., Fievet, A.C., Cristia, A.",
     "infos": {
@@ -93,26 +59,6 @@
       }
     ],
     "bibtex": "@inproceedings{coffey2024longform,\n  title={Long-Form Recordings to Study Children's Language Input and\n         Output in Under-Resourced Contexts},\n  author={Coffey, Joseph R. and Cristia, Alejandrina},\n  booktitle={Proceedings of the Fifth Workshop on Resources for African\n             Indigenous Languages at LREC-COLING 2024},\n  year={2024}\n}\n"
-  },
-  {
-    "title": "Everyday Language Input and Production in 1,001 Children from Six Continents",
-    "authors": "Bergelson, E., Soderstrom, M., et al., Cristia, A.",
-    "infos": {
-      "journal": "Developmental Science",
-      "year": "2023"
-    },
-    "links": [
-      {
-        "text": "View Publication",
-        "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2300671120",
-        "icon": "external-link"
-      },
-      {
-        "text": "Download PDF",
-        "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2300671120"
-      }
-    ],
-    "bibtex": "@article{bergelson2023everyday,\n  title={Everyday Language Input and Production in 1,001 Children from Six Continents},\n  author={Bergelson, Elika and Soderstrom, Melanie and Cristia, Alejandrina},\n  journal={Developmental Science},\n  year={2023}\n}\n"
   },
   {
     "title": "Combining Observational and Experimental Approaches to Language Development in Rural Samples: Opportunities and Challenges",
@@ -172,26 +118,6 @@
     "bibtex": "@article{cristia2022systematic,\n  title={A Systematic Review Suggests Marked Differences in the Prevalence of\n         Infant-Directed Vocalization Across Groups of Populations},\n  author={Cristia, Alejandrina},\n  journal={Developmental Science},\n  pages={e13265},\n  year={2022}\n}\n"
   },
   {
-    "title": "Non-Word Repetition in Children Learning Yeli Dnye",
-    "authors": "Cristia, A., Casillas, M.",
-    "infos": {
-      "journal": "Language Development Research",
-      "year": "2022"
-    },
-    "links": [
-      {
-        "text": "View Publication",
-        "url": "https://chatterlab.uchicago.edu/lab-publications/Cristia_Casillas_2022_Nonword_repetition_in_children_learning_Yeli_Dnye.pdf",
-        "icon": "external-link"
-      },
-      {
-        "text": "Download PDF",
-        "url": "https://chatterlab.uchicago.edu/lab-publications/Cristia_Casillas_2022_Nonword_repetition_in_children_learning_Yeli_Dnye.pdf"
-      }
-    ],
-    "bibtex": "@article{cristia2022nonword,\n  title={Non-Word Repetition in Children Learning Yeli Dnye},\n  author={Cristia, Alejandrina and Casillas, Marisa},\n  journal={Language Development Research},\n  volume={2},\n  number={1},\n  pages={69--104},\n  year={2022}\n}\n"
-  },
-  {
     "title": "Using Big Data from Long-Form Recordings to Study Development and Optimize Societal Impact",
     "authors": "Cychosz, M., Cristia, A.",
     "infos": {
@@ -226,86 +152,5 @@
       }
     ],
     "bibtex": "@article{cristia2021lena,\n  title={A Thorough Evaluation of the Language Environment Analysis (LENA) System},\n  author={Cristia, Alejandrina and Lavechin, Marvin and Scaff, Camila and\n          Soderstrom, Melanie and Rowland, Caroline F. and Rasanen, Okko\n          and Bunce, John and Bergelson, Elika},\n  journal={Behavior Research Methods},\n  volume={53},\n  pages={467--486},\n  year={2021}\n}\n"
-  },
-  {
-    "title": "Child-Directed and Overheard Input from Different Speakers in Two Distinct Cultures",
-    "authors": "Loukatou, G., Scaff, C., Demuth, K., Cristia, A., Havron, N.",
-    "infos": {
-      "journal": "Journal of Child Language",
-      "year": "2021"
-    },
-    "links": [
-      {
-        "text": "View Publication",
-        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CB1BD3DDE9F86A141FCD9B6E2F52DF7D/S0305000921000623a.pdf/div-class-title-child-directed-and-overheard-input-from-different-speakers-in-two-distinct-cultures-div.pdf",
-        "icon": "external-link"
-      },
-      {
-        "text": "Download PDF",
-        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CB1BD3DDE9F86A141FCD9B6E2F52DF7D/S0305000921000623a.pdf/div-class-title-child-directed-and-overheard-input-from-different-speakers-in-two-distinct-cultures-div.pdf"
-      }
-    ],
-    "bibtex": "@article{loukatou2021childdirected,\n  title={Child-Directed and Overheard Input from Different Speakers in Two Distinct Cultures},\n  author={Loukatou, Georgia and Scaff, Camila and Demuth, Katherine and\n          Cristia, Alejandrina and Havron, Naomi},\n  journal={Journal of Child Language},\n  volume={49},\n  number={6},\n  pages={1173--1192},\n  year={2021}\n}\n"
-  },
-  {
-    "title": "Accuracy of the Language Environment Analysis System Segmentation and Metrics: A Systematic Review",
-    "authors": "Cristia, A., Bulgarelli, F., Bergelson, E.",
-    "infos": {
-      "journal": "Journal of Speech, Language, and Hearing Research",
-      "year": "2020"
-    },
-    "links": [
-      {
-        "text": "View Publication",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7242991/pdf/JSLHR-63-1093.pdf",
-        "icon": "external-link"
-      },
-      {
-        "text": "Download PDF",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7242991/pdf/JSLHR-63-1093.pdf"
-      }
-    ],
-    "bibtex": "@article{cristia2020accuracy,\n  title={Accuracy of the Language Environment Analysis System Segmentation and\n         Metrics: A Systematic Review},\n  author={Cristia, Alejandrina and Bulgarelli, Federica and Bergelson, Elika},\n  journal={Journal of Speech, Language, and Hearing Research},\n  volume={63},\n  pages={1093--1105},\n  year={2020}\n}\n"
-  },
-  {
-    "title": "ALICE: An Open-Source Tool for Automatic Measurement of Phoneme, Syllable, and Word Counts from Child-Centered Daylong Recordings",
-    "authors": "Rasanen, O., Seshadri, S., Lavechin, M., Cristia, A., Casillas, M.",
-    "infos": {
-      "journal": "Behavior Research Methods",
-      "year": "2020"
-    },
-    "links": [
-      {
-        "text": "View Publication",
-        "url": "https://link.springer.com/content/pdf/10.3758/s13428-020-01460-x.pdf",
-        "icon": "external-link"
-      },
-      {
-        "text": "Download PDF",
-        "url": "https://link.springer.com/content/pdf/10.3758/s13428-020-01460-x.pdf"
-      }
-    ],
-    "bibtex": "@article{rasanen2020alice,\n  title={ALICE: An Open-Source Tool for Automatic Measurement of Phoneme,\n         Syllable, and Word Counts from Child-Centered Daylong Recordings},\n  author={Rasanen, Okko and Seshadri, Shreyas and Lavechin, Marvin and\n          Cristia, Alejandrina and Casillas, Marisa},\n  journal={Behavior Research Methods},\n  year={2020}\n}\n"
-  },
-  {
-    "title": "Infant-Directed Input and Literacy Effects on Phonological Processing: Non-Word Repetition Scores Among the Tsimane",
-    "authors": "Cristia, A., Farabolini, G., Scaff, C., Havron, N., Stieglitz, J.",
-    "infos": {
-      "journal": "PLOS ONE",
-      "year": "2020",
-      "doi": "10.1371/journal.pone.0237702"
-    },
-    "links": [
-      {
-        "text": "View Publication",
-        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0237702&type=printable",
-        "icon": "external-link"
-      },
-      {
-        "text": "Download PDF",
-        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0237702&type=printable"
-      }
-    ],
-    "bibtex": "@article{cristia2020tsimane,\n  title={Infant-Directed Input and Literacy Effects on Phonological Processing:\n         Non-Word Repetition Scores Among the Tsimane},\n  author={Cristia, Alejandrina and Farabolini, Gaia and Scaff, Camila and\n          Havron, Naomi and Stieglitz, Jonathan},\n  journal={PLOS ONE},\n  volume={15},\n  number={9},\n  pages={e0237702},\n  year={2020},\n  doi={10.1371/journal.pone.0237702}\n}\n"
   }
 ]
