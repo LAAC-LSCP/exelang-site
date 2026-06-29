@@ -9,7 +9,11 @@ headless = true
 
 Project management and data organization for child language research.
 
-<<<<<<< Updated upstream
+{{< note >}}
+**Use Case:** “I know some python and want to organize my long-form dataset to easily extract metrics”
+
+{{< /note >}}
+
 {{< link-buttons >}}
 {{< link-button
         title="Watch the introduction"
@@ -23,10 +27,8 @@ Project management and data organization for child language research.
     >}}
 {{< /link-buttons >}}
 
-=======
->>>>>>> Stashed changes
 {{< iframe
-    src="https://childproject.readthedocs.io/en/latest/modules.html"
-    title="ChildProject Docs"
+    src=" https://childproject.readthedocs.io/en/latest/"
+    title="ChildProject Documentation"
     height="480"
 >}}

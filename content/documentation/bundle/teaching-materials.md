@@ -7,31 +7,27 @@ headless = true
 
 ## Teaching Materials
 
-Educational resources including PDFs, images, and videos.
+A comprehensive, open-access introduction to long-form recording research — from study design to data analysis.
 
-{{< materials-grid >}}
-{{< materials-item
-        title="Conference Materials"
-        icon="paper-with-dog-ear"
-        description="Interspeech leaflets and handouts"
-        url="https://www.google.com/"
+{{< note >}}
+**Use Case:** "I'm new to long-form recordings and want a structured resource to get up to speed"
+
+Long-form recordings: From A to Z is a free, open-access book covering the full research pipeline: what long-form recordings are, how to collect and manage them, how to process and annotate them, and how to analyse the data. It is designed for researchers at any level, with or without a technical background.
+{{< /note >}}
+
+{{< link-buttons >}}
+{{< link-button
+        title="Read the book"
+        href="http://bookdown.org/alecristia/exelang-book/"
     >}}
-{{< materials-item
-        title="Presentation Slides"
-        icon="paper-with-dog-ear"
-        description="Lecture and workshop slides"
-        url="https://www.google.com/"
+{{< link-button
+        title="Watch the lectures"
+        href="https://www.youtube.com/playlist?list=PLExuQICGVy3gMQllaZ5OLDOQ1KDMuhoMr"
     >}}
-{{< materials-item
-        title="Figures & Diagrams"
-        icon="paper-with-dog-ear"
-        description="Educational visualizations"
-        url="https://www.google.com/"
+{{< link-button
+        title="View on GitHub"
+        left_icon="github"
+        href="https://github.com/laac-lscp/exelang-book"
     >}}
-{{< materials-item
-        title="Video Tutorials"
-        icon="camera"
-        description="Step-by-step video guides"
-        url="https://www.google.com/"
-    >}}
-{{< /materials-grid >}}
+{{< /link-buttons >}}
+

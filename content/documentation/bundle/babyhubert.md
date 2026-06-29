@@ -9,6 +9,11 @@ headless = true
 
 Advanced machine learning model for infant speech analysis.
 
+{{< note >}}
+**Use Case:** “I want to create a classifier on top of a speech representation model”
+
+{{< /note >}}
+
 {{< link-buttons >}}
 {{< link-button
         title="Watch the presentation webinar"
@@ -16,14 +21,13 @@ Advanced machine learning model for infant speech analysis.
         href="https://www.youtube.com/watch?v=inWK5YVET9Q"
     >}}
 {{< link-button
-        title="View on GitHub"
-        left_icon="github"
-        href="https://github.com/LAAC-LSCP/BabyHuBERT"
+        title="View on Huggingface"
+        href="https://huggingface.co/MarvinLvn/BabyHuBERT"
     >}}
 {{< /link-buttons >}}
 
 {{< iframe
-    src="https://laac-lscp.github.io/BabyHuBERT/"
-    title="BabyHubert Docs"
+    src="https://osf.io/n75rs/overview"
+    title="BabyHubert"
     height="480"
 >}}
