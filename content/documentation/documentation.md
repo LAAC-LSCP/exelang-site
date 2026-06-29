@@ -12,7 +12,7 @@ help_text = "Can't find what you're looking for? Contact our team or check out o
 help_button_primary_text = "Contact Support"
 help_button_primary_href = "https://www.google.com/"
 help_button_secondary_text = "View on GitHub"
-help_button_secondary_href = "https://www.google.com/"
+help_button_secondary_href = "https://github.com/LAAC-LSCP"
 +++
 
 # Documentation
