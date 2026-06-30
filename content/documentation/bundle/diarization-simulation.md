@@ -17,7 +17,7 @@ Diarization algorithms like LENA and VTC can misclassify speakers — for exampl
 
 
 {{< iframe
-    src=" https://github.com/LAAC-LSCP/diarization-simulation"
+    src="https://github.com/LAAC-LSCP/diarization-simulation"
     title="Diarization Simulation"
     height="480"
 >}}
