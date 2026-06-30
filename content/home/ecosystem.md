@@ -7,6 +7,6 @@ headless = true
 
 ## The ExELang Ecosystem
 
-A comprehensive suite of tools for child language research
+Two consortia and a platform complement extant scientific archives. 
 
-![Ecosystem](images/ELSIecosystem.jpeg)
+![Ecosystem](images/ExELang_Ecosystem2.png)

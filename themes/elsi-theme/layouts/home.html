@@ -1,15 +1,18 @@
-{{ define "main" }} {{ with site.GetPage "home/home-hero" }}
+{{ define "main" }}
+{{ with site.GetPage "home/home-hero" }}
 <section class="home-hero">
   <div class="hero-container">
     {{ .Content }}
     <div class="hero-buttons">
-      <a class="big-button big-button-primary inline-svg" href="/documentation/">
+      <a class="big-button big-button-primary inline-svg" href="/docs/documentation/">
         {{ .Params.explore_tag }} {{ partial "icons/right-arrow.html" . }}
       </a>
     </div>
   </div>
 </section>
-{{ end }} {{ with site.GetPage "home/project-history" }}
+{{ end }}
+
+{{ with site.GetPage "home/project-history" }}
 <section class="project-history">
   <div class="content-container">
     <div class="subtitle-container">
@@ -19,16 +22,18 @@
     <div class="history">{{ .Content }}</div>
   </div>
 </section>
-{{ end }} {{ with site.GetPage "home/who-is-this-for"}}
+{{ end }}
+
+{{ with site.GetPage "home/who-is-this-for"}}
 <section class="who-is-this-for">
   <div class="who-for-text">{{ .Content }}</div>
   <div class="grid-mixin four-grid">
     {{ range .Params.audiences }} {{ partial "home/who-for-card.html" . }} {{ end }}
   </div>
 </section>
-{{ end }} {{ with site.GetPage "home/ecosystem"}}
-<section class="home-ecosystem">{{ .Content }}</section>
-{{ end }} {{ with site.GetPage "home/tools"}}
+{{ end }}
+
+{{ with site.GetPage "home/tools"}}
 <section class="home-tools">
   <h3>{{ .Params.title }}</h3>
   <div class="tools-grid grid-mixin two-grid">
@@ -36,7 +41,13 @@
   </div>
   <div class="info-box">{{ .Content }}</div>
 </section>
-{{ end }} {{ with site.GetPage "home/ethics" }}
+{{ end }}
+
+{{ with site.GetPage "home/ecosystem"}}
+<section class="home-ecosystem">{{ .Content }}</section>
+{{ end }}
+
+{{ with site.GetPage "home/ethics" }}
 <section class="home-ethics">
   <div class="ethics-container">
     <div class="text-container">
@@ -64,7 +75,9 @@
     {{ end }}
   </div>
 </section>
-{{ end }} {{ with site.GetPage "home/resources.md" }}
+{{ end }}
+
+{{ with site.GetPage "home/resources.md" }}
 <section class="home-resources">
   <div class="text-container">{{ .Content }}</div>
   <div class="grid-mixin three-grid">
@@ -72,6 +85,7 @@
   </div>
 </section>
 {{ end }}
+
 <section class="home-consortium">
   {{ with site.GetPage "home/consortium.md" }}
   <div class="text-container">
