@@ -1,20 +1,46 @@
 {{ define "main" }}
   {{ with site.GetPage "documentation/documentation.md" }}
     {{ partial "shared/banner.html" . }}
-
     <section class="documentation">
       <div class="docs-wrapper">
         <!-- Sidebar -->
         {{ $bundle := site.GetPage "documentation/bundle" }}
+        {{ $order := slice
+          "exelang-legacy"
+          "ExELang-consortium"
+          "elsi"
+          "EL1000-consortium"
+          "childproject"
+          "diarization-simulation"
+          "vtc2"
+          "addressee-classifer"
+          "babyhubert"
+          "speech-maturity-dataset"
+          "benchmarking-dataset-factory"
+          "ethical-dilemmas"
+          "data-protection"
+          "LFR-LMIC"
+          "vandam-daylong"
+          "Caregiver-child-conversations"
+          "teaching-materials"
+        }}
+        {{ $pages := slice }}
+        {{ range $name := $order }}
+          {{ range $bundle.Resources.Match "*.md" }}
+            {{ if eq .File.BaseFileName $name }}
+              {{ $pages = $pages | append . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
         {{ $page_links := slice }}
-        {{ range $bundle.Resources.Match "*.md" }}
+        {{ range $pages }}
           {{ $page_links = $page_links | append (dict "page_name" .File.BaseFileName "title" .Title) }}
         {{ end }}
         {{ partial "documentation/docs-sidebar.html" (dict "header" .Params.sidebar_header "page_links" $page_links) }}
 
         <!-- Main Content: Render ALL tabs -->
         <div class="docs-main-content">
-          {{ range $bundle.Resources.Match "*.md" }}
+          {{ range $pages }}
             <div id="{{ .File.BaseFileName }}" class="shadowed-card docs-page-container">
               {{ .Content }}
             </div>
