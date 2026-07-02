@@ -51,7 +51,7 @@ name = "Alex Eguiluz"
 subteam = "ELSI Team"
 position = "Scientific Project Manager"
 description = 'Aids organization of the ELSI team, including structuring meetings and managing timelines.'
-image = "images/people/alejandrina.png"
+image = "images/people/Flex.jpg"
 
     [[team_members.icon_links]]
     url = "mailto:alexandraeguiluz@gmail.com"
@@ -81,7 +81,7 @@ name = "Alicia Horton-Mastin"
 subteam = "ELSI Team"
 position = "ExELang Project Manager"
 description = 'Alignment between the ELSI Team and the broader ExELang project. Ensures continuity, oversight, and coordination at the project level.'
-image = "images/office.jpeg"
+image = "images/people/Alicia.jpeg"
 
     [[team_members.icon_links]]
     url = "mailto:alicia.horton.mastin2@gmail.com"
