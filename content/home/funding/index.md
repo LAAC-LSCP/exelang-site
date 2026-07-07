@@ -22,11 +22,6 @@ project = "ELSI V1"
     logo = "Logo_gruen_de_eps.png"
     link = "https://www.mpg.de/de"
 
-    [[projects.funding_bodies]]
-    name = "Facebook META"
-    logo = "Meta_lockup_positive primary_RGB.svg"
-    link = "https://research.facebook.com/"
-
 [[projects]]
 project = "ELSI V2"
 
