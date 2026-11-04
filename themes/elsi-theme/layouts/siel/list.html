@@ -1,0 +1,6 @@
+{{ define "main" }} {{ with site.GetPage "siel/siel.md" }} {{ partial
+    "shared/banner.html" . }}
+{{ with site.GetPage "siel/content"}}
+<section class="siel-body">{{ .Content }}</section>
+{{ end }}
+    {{ end }} {{ end }}

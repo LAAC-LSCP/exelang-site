@@ -25,6 +25,11 @@ disableKinds = ["taxonomy"]
     pageRef = '/meet-the-team'
     weight = 4
 
+  [[menus.main]]
+    name = 'SIEL'
+    pageRef = '/siel'
+    weight = 5
+
 [module]
   [module.hugoVersion]
     extended = false
