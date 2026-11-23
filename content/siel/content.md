@@ -42,6 +42,42 @@ SIEL operates on a **non-profit, cost-recovery** basis. Fees cover only the real
 
 ### Access tiers
 
+<table style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #d0d7de; padding: 10px 14px; text-align: center;">Tier</th>
+      <th style="border: 1px solid #d0d7de; padding: 10px 14px; text-align: center;">For</th>
+      <th style="border: 1px solid #d0d7de; padding: 10px 14px; text-align: center;">Annual fee</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px; font-weight: 700;">Pilot</td>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px;">Early partner laboratories</td>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px;">Free for 6 months, in exchange for structured feedback and a letter of support</td>
+    </tr>
+    <tr style="background: #f6f8fa;">
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px; font-weight: 700;">Individual lab</td>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px;">A single research group</td>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px; font-style: italic;">[to be confirmed]</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px; font-weight: 700;">Group / institution</td>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px;">Multi-lab consortia, departments, institutions</td>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px; font-style: italic;">[to be confirmed]</td>
+    </tr>
+    <tr style="background: #f6f8fa;">
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px; font-weight: 700;">Reduced fee / waiver</td>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px;">Labs in low-resource settings</td>
+      <td style="border: 1px solid #d0d7de; padding: 10px 14px;">Reduced or waived on request</td>
+    </tr>
+  </tbody>
+</table>
+
+We are committed to keeping SIEL accessible to researchers in all regions, especially those working in the under-studied languages and communities this work aims to serve. Cost should never be the reason a lab cannot take part.
+
+### Access tiers
+
 | Tier | For | Annual fee |
 |---|---|---|
 | **Pilot** | Early partner laboratories | Free for 6 months, in exchange for structured feedback and a letter of support |
