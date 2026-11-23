@@ -8,3 +8,9 @@ headless = true
 ## EL1000 Consortium
 
 EL1000 is a research consortium for large-scale, cross-cultural research on children's everyday language environments. Rather than sharing raw audio, it uses automated speech analysis pipelines to generate deidentified derived metrics — enabling standardized, cross-corpus analyses while respecting data sovereignty and consent constraints.
+
+{{< iframe
+    src="https://osf.io/s53kq/files/5ezr3"
+    title="Speech Maturity Dataset"
+    height="480"
+>}}
