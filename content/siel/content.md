@@ -16,6 +16,7 @@ ERC funding ended in 2026. A tool like ELSI needs ongoing engineering, secure ho
 
 {{< /note >}}
 
+---
 
 ## What SIEL Provides
 
@@ -45,8 +46,8 @@ SIEL operates on a **non-profit, cost-recovery** basis. Fees cover only the real
 | Tier | For | Annual fee |
 |---|---|---|
 | **Pilot** | Early partner laboratories | Free for 6 months, in exchange for structured feedback and a letter of support |
-| **Individual lab** | A single research group | *[to be confirmed]* |
-| **Group / institution** | Multi-lab consortia, departments, institutions | *[to be confirmed]* |
+| **Individual lab** | A single research group | *€500* |
+| **Group / institution** | Multi-lab consortia, departments, institutions | *€2000* |
 | **Reduced fee / waiver** | Labs in low-resource settings | Reduced or waived on request |
 
 We are committed to keeping SIEL accessible to researchers in all regions, especially those working in the under-studied languages and communities this work aims to serve. Cost should never be the reason a lab cannot take part.
@@ -55,6 +56,11 @@ We are committed to keeping SIEL accessible to researchers in all regions, espec
 
 ## Join the Pilot Program
 
+{{< note >}}
+**Use Case:** "My lab collects daylong recordings and wants to try automated analysis before committing."
+
+{{< /note >}}
+
 We are currently recruiting **pilot laboratories**. Pilot partners receive:
 
 - Six months of free access to the full platform
@@ -62,8 +68,6 @@ We are currently recruiting **pilot laboratories**. Pilot partners receive:
 - A voice in shaping SIEL's roadmap and features
 
 In return, we ask pilot labs to share structured feedback on their experience and to provide a letter of support.
-
-**Use Case:** *"My lab collects daylong recordings and wants to try automated analysis before committing."*
 
 **Interested?** Contact us at *[contact email]*.
 
