@@ -20,11 +20,32 @@ ERC funding ended in 2026. A tool like ELSI needs ongoing engineering, secure ho
 
 ## What SIEL Provides
 
-- **Continued access to ELSI.** Upload and manage standardized datasets, get automatic annotations (who is speaking, when, and to whom), and extract metrics such as adult word counts, child vocalizations, and conversational turns.
-- **Maintained, up-to-date models.** This includes the Voice Type Classifier (VTC2) and other models created during ExELang, which are re-validated as new versions are released.
-- **Secure, GDPR-compliant hosting** on European academic infrastructure. 
-- **Cross-cultural coverage.** The models are built and evaluated on recordings from many languages and cultural settings, not only Western, English-speaking households.
-- **Transparency.** The underlying tools stay open source, and the models' validation against human annotation is documented and published.
+<ul>
+    <li>
+        <strong>Continued access to ELSI.</strong>
+        Upload and manage standardized datasets, get automatic annotations (who is speaking, when, and to whom), and extract metrics such as adult word counts, child vocalizations, and conversational turns.
+    </li>
+
+    <li>
+        <strong>Maintained, up-to-date models.</strong>
+        This includes the Voice Type Classifier (VTC2) and other models created during ExELang, which are re-validated as new versions are released.
+    </li>
+
+    <li>
+        <strong>Secure, GDPR-compliant hosting</strong>
+        on European academic infrastructure.
+    </li>
+
+    <li>
+        <strong>Cross-cultural coverage.</strong>
+        The models are built and evaluated on recordings from many languages and cultural settings, not only Western, English-speaking households.
+    </li>
+
+    <li>
+        <strong>Transparency.</strong>
+        The underlying tools stay open source, and the models' validation against human annotation is documented and published.
+    </li>
+</ul>
 
 ---
 
