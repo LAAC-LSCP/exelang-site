@@ -11,7 +11,10 @@ The ExELang project (ERC Consolidator Grant, 2021–2026) built ELSI, the ExELan
 
 ERC funding ended in 2026. A tool like ELSI needs ongoing engineering, secure hosting, and computing resources, and project grants are not designed to cover those costs over the long term. SIEL is our answer: a stable, transparent structure that keeps the platform maintained, improving, and available to the research community.
 
-**Use Case:** *"I want to keep analyzing my lab's daylong recordings with ELSI after the ExELang project ends."*
+{{< note >}}
+**Use Case:** "I want to keep analyzing my lab's daylong recordings with ELSI after the ExELang project ends."
+
+{{< /note >}}
 
 ---
 
